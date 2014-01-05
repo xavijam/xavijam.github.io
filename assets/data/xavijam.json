@@ -1,0 +1,59 @@
+{
+  "jobs": [
+    {
+      "company": {
+        "name":       "Vizzuality",
+        "url":        "http://vizzuality.com",
+        "location":   "Madrid"
+      },
+      "position": {
+        "discipline": "Front-End",
+        "name":       "UI developer"
+      },
+      "current_project":  {
+        "name":       "CartoDB",
+        "url":        "http://cartodb.com"
+      },
+      "from":         "2009-2-14"
+    }
+  ],
+  "milestones": [
+    
+      
+      {
+        "title":    "Antarctic Field Guides",
+        "excerpt":  "Supporting amateurs and scientist their preparation for a trip to the Antarctica.<br />I have to say it is one of my favourite projects, where I found a strong passion for penguins... did I?<br />",
+        "date":     "2010-11-19",
+        "url":      "/projects/afg/",
+        "by":       [ "Vizzuality" ],
+        
+        "link":     "http://afg.scarmarbin.be/",
+        
+        
+        "preview":  "AFG",
+        
+        "type":     ""
+      } 
+      
+       
+  ],
+  "social": {
+    
+      
+    
+      
+    
+      
+    
+      
+     
+    "github-alt":   "http://github.com/xavijam",
+    "twitter":      "http://twitter.com/xavijam",
+    "google-plus":  "http://google.com/+JavierAlvarezMedina",
+    "linkedin":     "http://linkedin.com/in/javieralvarezmedina",
+    "rss":          "/blog"
+  },
+  "info": {
+    "birthday": "1985-12-20"
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: news | xavijam]]></title>
+  <link href="http://xavij.am/blog/categories/news/atom.xml" rel="self"/>
+  <link href="http://xavij.am/"/>
+  <updated>2014-01-06T00:53:17+01:00</updated>
+  <id>http://xavij.am/</id>
+  <author>
+    <name><![CDATA[xavijam]]></name>
+    <email><![CDATA[xavijam@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
