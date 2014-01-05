@@ -1,0 +1,56 @@
+---
+layout: nil
+---
+{
+  "jobs": [
+    {
+      "company": {
+        "name":       "Vizzuality",
+        "url":        "http://vizzuality.com",
+        "location":   "Madrid"
+      },
+      "position": {
+        "discipline": "Front-End",
+        "name":       "UI developer"
+      },
+      "current_project":  {
+        "name":       "CartoDB",
+        "url":        "http://cartodb.com"
+      },
+      "from":         "2009-2-14"
+    }
+  ],
+  "milestones": [
+    {% for project in site.projects %}
+      {% if project.published %}
+      {
+        "title":    "{{ project.title }}",
+        "excerpt":  "{{ project.excerpt | newline_to_br | strip_newlines }}",
+        "date":     "{{ project.date | date: '%Y-%m-%d' }}",
+        "url":      "{{ project.url | replace: 'index.html', '' }}",
+        "by":       [ {% for by in project.by %}"{{ by }}"{% if forloop.last == false %},{% endif %}{% endfor %} ],
+        {% if project.link %}
+        "link":     "{{ project.link }}",
+        {% endif %}
+        {% if project.preview %}
+        "preview":  "{{ project.preview }}",
+        {% endif %}
+        "type":     "{{ project.type }}"
+      } {% if forloop.last == false %},{% endif %}
+      {% endif %}
+    {% endfor %}   
+  ],
+  "social": {
+    {% for network in site.social %}
+      
+    {% endfor %} 
+    "github-alt":   "http://github.com/xavijam",
+    "twitter":      "http://twitter.com/xavijam",
+    "google-plus":  "http://google.com/+JavierAlvarezMedina",
+    "linkedin":     "http://linkedin.com/in/javieralvarezmedina",
+    "rss":          "/blog"
+  },
+  "info": {
+    "birthday": "1985-12-20"
+  }
+}

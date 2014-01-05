@@ -1,0 +1,72 @@
+
+
+  /**
+   *  Common page styles
+   */
+
+  @import "compass/css3/inline-block";
+  @import "mixins";
+  @import "vars";
+
+
+  // Page header
+  article.heading {
+    header { margin:0 auto }
+  }
+
+  .page-title, .page-heading {
+    margin:0;
+    padding:0;
+    font-size:28px;
+    font-weight:bold;
+    text-align: center;
+    letter-spacing:-1px;
+  }
+
+  .page-title { color:#666666; }
+  .page-heading { color:#888888 }
+
+  .page-subtitle {
+    margin:3px 0 0;
+    padding:0;
+    font-size:15px;
+    color:#777777;
+    font-weight:normal;
+    text-align: center;
+    letter-spacing:0px;
+  }
+
+  .page-heading-link {
+    @include inline-block();
+    margin:15px 0 0;
+    &:hover { color:white; text-decoration:none }
+  }
+
+
+  // Page content
+  .page-content {
+    max-width:820px;
+    margin:60px auto 0;
+    clear:both;
+
+    .navigation {
+      display:block;
+      margin:80px 0 0 0;
+      text-align:center;
+    }
+
+    .ladda-button {
+      position:relative;
+      @include inline-block();
+      text-decoration:none;
+      &:hover { color:white }
+    }
+
+    ul {
+      display:block;
+      margin:0;
+      padding:0;
+    }
+
+  }
+

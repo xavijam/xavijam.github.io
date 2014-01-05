@@ -1,0 +1,14 @@
+{% assign default_thumbnail = "/assets/img/layout/default-logo-thumbnail.png" %}
+<li class="pure-u-1-4">
+  <div class="l-box">
+    <a href="{{ include.link }}">
+      <div class="avatar">
+        <img src="{% if include.logo %}/assets/img/{{ include.path }}/{{ include.name }}.png{% else %}{{ default_thumbnail }}{% endif %}" title="{{ include.title }}" alt="{{ include.title }}" />
+      </div>
+      <div class="info">
+        <h5>{{ include.title }}</h5>
+        <p>{{ include.text }}</p>
+      </div>
+    </a>
+  </div>
+</li>

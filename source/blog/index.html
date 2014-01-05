@@ -1,0 +1,24 @@
+---
+layout:       default
+title:        Blog
+description:  Last published stories and thoughts around my world
+---
+
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  <article class="{% if thecycle == 'even' %}even{% endif %}">
+    {% include article.html %}
+  </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <button class="ladda-button" data-href="{{paginator.next_page_path}}" data-color="blue" data-style="expand-left" data-size="s"><span class="ladda-label">older posts</span></button>
+    {% endif %}
+    {% if paginator.previous_page %}
+      <button class="ladda-button" data-href="{{paginator.previous_page_path}}" data-color="blue" data-style="expand-right" data-size="s"><span class="ladda-label">newer posts</span></button>
+    {% endif %}
+  </div>
+</div>

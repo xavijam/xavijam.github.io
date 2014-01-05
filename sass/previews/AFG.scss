@@ -1,0 +1,96 @@
+
+  /**
+   *  AFG project styles
+   */
+
+  @import "compass/css3/inline-block";
+  @import "compass/css3/border-radius";
+  @import "../vars";
+
+  $max-width: 480px;
+
+  .AFG {
+    position:relative;
+    width:300px;
+    margin:0 auto;
+
+    .project_bkg {
+      position:relative;
+      display:block;
+      width:282px;
+      height:180px;
+      padding:9px 9px 0;
+      overflow:hidden;
+      @include border-top-radius(3px);
+      background:#EEEEEE;
+    }
+
+    .project_inner {
+      display:block;
+      padding:9px 9px 0;
+      background:white;
+    }
+
+    h3 {
+      margin:0; padding:0;
+      font-size:14px;
+      font-weight:bold;
+      color:#777777;
+      em { color:#0099CC; font-style:normal }
+    }
+
+    span.line {
+      position:absolute;
+      bottom:0;
+      left:-10px;
+      right:-10px;
+      height:1px;
+      background:#CCCCCC;
+      background:rgba(black,0.2);
+    }
+
+    #AFG_map {
+      width:264px;
+      height:122px;
+      margin:5px 0 0;
+      background:#3A7DCE;
+
+      path.antarctica {
+        fill:#F9F9F9;
+      }
+
+      path.graticule {
+        fill: none;
+        stroke: #FFF;
+        stroke-opacity: .2;
+        stroke-width: .5px;
+      }
+
+      .station {
+        fill: #FF9470;
+        stroke: #666;
+        stroke-opacity: .9;
+        stroke-width: .2px;
+      }
+    }
+
+    div.lists {
+      ul {
+        margin:0;
+        padding:0;
+
+        li {
+          @include inline-block();
+          width:45px;
+          height:45px;
+          margin:10px 0 0;
+          padding:0;
+          border:1px solid #CCC;
+          @include border-radius(2px);
+          background:white;
+        }
+        
+      }
+    }
+
+  }

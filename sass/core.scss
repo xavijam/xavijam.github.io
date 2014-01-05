@@ -1,0 +1,172 @@
+
+  /**
+   *  Core application styles
+   */
+
+  @import "compass/css3";
+  @import "helpers";
+  @import "sprites";
+  @import "mixins";
+  @import "vars";
+
+  html, body {
+    position:relative;
+    width:100%;
+    margin:0;
+    padding:0;
+    background:white;
+    font-family:$fonts;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color:#53b5e6;
+    text-decoration:none;
+    &:hover { color:#69bfe9; text-decoration:underline }
+  }
+
+  // Default styles
+  .dark { color:#666 }
+  .grey { color:#999 }
+  .light { color:#CCC }
+  .italic { font-style:italic }
+  .center { text-align:center }
+  // Colors by name
+  .vizzuality { color:#9FBF43; &:hover { color:#9FBF43 } }
+  .cartodb { color:#397DB8; &:hover { color:#397DB8 } }
+
+
+  // xavij.am logo
+  .logo {
+    width:auto;
+    height:40px;
+    padding:0;
+    line-height:40px;
+    font-size:20px;
+    font-weight:lighter;
+    color:#767676;
+    text-decoration:none;
+    
+    i.logo {
+      @include inline-block();
+      width:40px;
+      height:40px;
+      margin-right:10px;
+      @include sprite-background(logo);
+    }
+
+    &:hover { color:#666; text-decoration:none }
+  }
+
+  // options list -> nav
+  nav { 
+    a {
+      font-size:16px;
+      font-weight:normal;
+      color:#777777;
+      text-decoration:none;
+      
+      &:hover {
+        color:#555;
+        text-decoration:none;
+      }
+
+      &.selected {
+        color:#555;
+        border-bottom:2px solid #555;
+
+        &:hover {cursor:default}
+      }
+    }
+  }
+
+  
+  // columns-content //
+
+  //////////////////
+  // CSS3 columns //
+  //////////////////
+  .columns {
+
+    h4 {
+      margin-top:30px;
+      padding:0 10px;
+      @media screen and (max-width: $max-width) {
+        padding:0 20px;
+      }
+    }
+
+    .columns-content {
+      display:block;
+      @include column-count(2,20px);
+      orphans:6;
+
+      @media screen and (max-width: $max-width) {
+        @include column-count(1,0px);
+        orphans:inherit;
+      }
+    }
+
+    p {
+      margin:0;
+      padding:0 10px;
+      color:#535353;
+      line-height:24px;
+
+      img {
+        display:block;
+        margin:10px 0;
+        width:390px;
+      }
+
+      @media screen and (max-width: $max-width) {
+        padding:0 20px;
+        img {width:100%}
+      }
+    }
+
+    & > img {
+      width:100%;
+      padding:0;
+      margin:40px 0;
+      @media screen and (max-width: $max-width) {
+        margin:15px 0;
+      }
+    }
+  }
+
+  //////////////////
+  // CSS2 columns //
+  //////////////////
+
+  .column {
+    min-height:200px; 
+    color:#535353;
+
+    @media screen and (max-width: $max-width) {
+      float:none!important;
+    }
+
+    & > div { color:#535353 }
+
+    & > p { display:block; }
+    img { width:99%; border:1px solid #DDD; }
+    iframe { width:99%; border:1px solid #DDD; }
+  }
+
+
+  
+  //////////////
+  // Articles //
+  //////////////
+  article {
+    padding:80px 0;
+
+    &.blue-article { background:#79BCE5 }
+    &.light-grey-article { background:#DDDDDD }
+    &.even { background:#F9F9F9 }
+
+    @media screen and (max-width: $max-width) {
+      padding:50px 0;
+    }
+  }

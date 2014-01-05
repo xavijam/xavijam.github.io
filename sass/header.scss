@@ -1,0 +1,107 @@
+
+  /**
+   *  Header style class
+   */
+
+  @import "compass/css3/inline-block";
+  @import "compass/css3/opacity";
+  @import "vars";
+  
+
+  header {
+    max-width:800px;
+    margin:0 auto;
+    padding:0 10px;
+    height:100px;
+
+    @media screen and (max-width: $max-width) {
+      height:120px;
+      padding:20px 0;
+    }
+
+    h1 {
+      float:left;
+      padding:0;
+      margin:30px 0 0;
+
+      @media screen and (max-width: $max-width) {
+        line-height:88px;
+        width:54%;
+        margin:0;
+        text-align: right;
+      }
+
+      a.logo {
+        display:block;
+        @media screen and (max-width: $max-width) {
+          @include inline-block();
+          padding-right:15px;
+        }
+      }
+    }
+
+    nav {
+      float:right;
+
+      @media screen and (max-width: $max-width) {
+        float:right;
+        width:44%;
+        text-align:left;
+        border-left:1px solid #DEDEDE;
+      }
+
+      a {
+        @include inline-block();
+        margin:0 0 0 10px;
+        padding:36px 0 0 0;
+        line-height:30px;
+
+        @media screen and (max-width: $max-width) {
+          display:block;
+          padding:0 0 0 15px;
+          margin:0;
+          line-height:24px;
+        }
+
+        &:first-child {margin-left:0}
+        
+        &:hover {
+          padding:34px 0 0 0;
+          border-top:2px solid #555;
+          @media screen and (max-width: $max-width) {
+            border-top:0;
+            padding:0 0 0 15px;
+            text-decoration:underline;
+          }
+        }
+
+        &.selected {
+          padding:34px 0 0 0;
+          border-top:2px solid #555;
+          border-bottom:0;
+
+          @media screen and (max-width: $max-width) {
+            padding:0 0 0 15px;
+            text-decoration: underline;
+            border-top:0;
+          }
+
+          &:hover {cursor:default}
+        }
+
+        &.disabled {
+          @include opacity(0.5);
+          &:hover {
+            border-top:2px solid #FFF;
+
+            @media screen and (max-width: $max-width) {
+              border-top:0;
+              @include opacity(0.5);
+              text-decoration:none;
+              color:#777;
+            }
+          }
+        }
+      }
+    }
+  }

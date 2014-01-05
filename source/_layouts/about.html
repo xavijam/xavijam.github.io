@@ -1,0 +1,41 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+
+  <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %}>
+    
+    {% include header.html %}
+
+    {% assign current = site.jobs | first %}
+
+    <div id="main">
+      <article class="heading">
+        <header>
+          <h2 class="page-title">Javier Álvarez Medina</h2>
+          <p class="page-subtitle italic">{{ current.position.name }} at <a class="{{ current.company.name | downcase }}" href="{{ current.company.url }}">{{ current.company.name }}</a></p>
+        </header>
+        <div class="page-content">{{ content | expand_urls: root_url }}</div>
+      </article>
+
+      {% if page.technologies and page.technologies.size > 0 %}
+        {% include page/technologies.html even=true type="page" %}
+      {% endif %}
+
+      <article class="project">
+        <header>
+          <h3 class="page-heading">Any project?</h3>
+          <p class="page-subtitle">Here it is a project where I've been involved...</p>
+        </header>
+        <div class="page-content"></div>
+      </article>
+
+      {% include recent_posts.html even=true %}
+
+      {% include page/social.html even=false %}
+    </div>
+
+    {% include footer.html %}
+    {% javascript app.js %}
+    {% javascript project.js %}
+    {% include google_analytics.html %}
+  </body>
+</html>

@@ -1,0 +1,49 @@
+---
+title: Projects
+start: 2007
+---
+
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+
+  <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %}>
+    
+    {% include header.html %}
+    
+    <div id="main">
+      <article class="heading">
+        <header>
+          <h2 class="page-title">{{ page.title }}</h2>
+          <p class="page-subtitle">Since {{ page.start }}</p>
+        </header>
+      </article>
+
+      <article id="projects">
+        <div class="page-content">
+          <ul class="pure-g-r">
+            {% for project in page.projects %}
+              <li class="pure-u-1-4">
+                {% for p in project %}
+                <div class="l-box">
+                  <a href="/projects/{{ p.path }}">
+                    <img src="/assets/img/projects/{{ p.path }}/thumbnail.png" alt="{{ p.title }}" title="{{ p.title }}" />
+                    <h4>{{ p.title }}</h4>
+                    <p>{{ p.subtitle }}</p>
+                  </a>
+                </div>
+                {% endfor %}    
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </article>
+
+      {% include recent_posts.html %}
+    </div>
+
+    {% include footer.html %}
+    {% javascript app.js %}
+    {% javascript main.js %}
+    {% include google_analytics.html %}
+  </body>
+</html>
