@@ -1,1 +1,16 @@
-{% include custom/footer.html %}
+<footer>
+  <h1><a href="/" class="logo"><i class="icon logo"></i>xavij.am</a></h1>
+  <nav>
+    <a href="/#/projects" {% if page.url contains '/projects' %} class="selected" {% endif %}>projects</a>
+    <a href="/blog" {% if page.url contains '/blog' %} class="selected" {% endif %}>blog</a>
+    <a href="/about" {% if page.url contains '/about' %} class="selected" {% endif %}>about</a>
+    <a href="mailto:{{ site.email }}">contact</a>
+  </nav>
+  <p class="thanks">Proudly created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a></p>
+  <p>
+    <a class="{{ site.social.twitter.name | downcase }}" href="{{ site.social.twitter.url }}" target="_blank">
+      <i class="fa fa-{{ site.social.twitter.icon }}"></i>
+      @{{ site.social.twitter.username }}
+    </a>
+  </p>
+</footer>

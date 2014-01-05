@@ -4,14 +4,17 @@ footer: false
 ---
 
 <div id="blog-archives" class="category">
-{% for post in site.categories[page.category] %}
-{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% unless year == this_year %}
-  {% assign year = this_year %}
-  <h2>{{ year }}</h2>
-{% endunless %}
-<article>
-  {% include archive_post.html %}
-</article>
-{% endfor %}
+  {% for post in site.categories[page.category] %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+    {% unless year == this_year %}
+      {% assign year = this_year %}
+      <h3 class="center grey">{{ year }}</h3>
+    {% endunless %}
+
+    <article class="{% if thecycle == 'even' %}even{% endif %}">
+      {% include archive_post.html %}
+    </article>
+  {% endfor %}
 </div>
