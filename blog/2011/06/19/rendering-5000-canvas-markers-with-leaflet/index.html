@@ -7,11 +7,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Category: experiment · xavijam</title>
+    <title>Rendering 5000 canvas markers with Leaflet · xavijam</title>
     
-    <meta name="description" content="Category: experiment" />
+    <meta name="description" content="Javier Álvarez Medina personal webpage. Front-end developer at Vizzuality." />
     
-    <meta name="keywords" content="jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,computer,science,vizzuality,maps,biodiversity,front-end,html5,informatics,developer,CartoDB,maps,Leaflet" />
+    <meta name="keywords" content="leaflet, map, canvas, rendering" />
     <meta name="distribution" content="Global">
     <meta name="author" content="xavijam">
     <meta name="detail" content="xavijam personal webpage">
@@ -25,8 +25,8 @@
     <meta name="geo.position" content="40.4166909, -3.7003454">
     <meta name="ICBM" content="40.4166909, -3.7003454">
 
-    <meta property="og:title" content="Category: experiment · xavijam"/>
-    <meta property="og:description" content="Category: experiment"/> 
+    <meta property="og:title" content="Rendering 5000 canvas markers with Leaflet · xavijam"/>
+    <meta property="og:description" content="Javier Álvarez Medina personal webpage. Front-end developer at Vizzuality."/> 
     <meta property="og:type" content="Personal webpage"/>
     <meta property="og:url" content="http://xavij.am" />
     
@@ -34,14 +34,14 @@
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@xavijam">
-    <meta name="twitter:title" content="Category: experiment · xavijam">
-    <meta name="twitter:description" content="Category: experiment">
+    <meta name="twitter:title" content="Rendering 5000 canvas markers with Leaflet · xavijam">
+    <meta name="twitter:description" content="Javier Álvarez Medina personal webpage. Front-end developer at Vizzuality.">
     <meta name="twitter:creator" content="@xavijam">
     <meta name="twitter:image:src" content="http://xavij.am/assets/img/layout/thumbnail.png">
     <meta name="twitter:domain" content="xavij.am">
 
     
-    <link rel="canonical" href="http://xavij.am/blog/categories/experiment">
+    <link rel="canonical" href="http://xavij.am/blog/2011/06/19/rendering-5000-canvas-markers-with-leaflet">
     <link href="/favicon.ico" rel="icon">
     <link href='http://fonts.googleapis.com/css?family=Lato:lighter,regular,bold&amp;subset=latin' rel='stylesheet'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -61,109 +61,68 @@
 </header>
   <div id="main">
     <div id="content">
-      <article class="heading">
-  
+      <div>
+  <article class="hentry" role="article">
+    
   <header>
-    <h2 class="page-title">Category: Experiment</h2>
+    
+      <h2 class="entry-title">Rendering 5000 Canvas Markers With Leaflet</h2>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-19T09:30:00+02:00" pubdate data-updated="true">June 19, 2011</time>
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
-  
-    
-    
-
-    
-      
-      <h3 class="center grey">2012</h3>
-    
-
-    <article class="">
-      
-<header>
-  <h2 class="entry-title"><a href="/blog/2012/08/16/cartodb-idealista/">CartoDB ♥ Idealista</a></h2>
-  <p class="meta">
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-16T09:30:00+02:00" pubdate data-updated="true">August 16, 2012</time></p>
-  
-    <p class="dark">Posted in <a class='category' href='/blog/categories/experiment/'>experiment</a>.</p>
-      
-</header>
-    </article>
-  
-    
-    
-
-    
-      
-      <h3 class="center grey">2011</h3>
-    
-
-    <article class="even">
-      
-<header>
-  <h2 class="entry-title"><a href="/blog/2011/06/19/rendering-5000-canvas-markers-with-leaflet/">Rendering 5000 canvas markers with Leaflet</a></h2>
-  <p class="meta">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-19T09:30:00+02:00" pubdate data-updated="true">June 19, 2011</time></p>
-  
-    <p class="dark">Posted in <a class='category' href='/blog/categories/experiment/'>experiment</a>.</p>
-      
-</header>
-    </article>
-  
-    
-    
-
-    
-
-    <article class="">
-      
-<header>
-  <h2 class="entry-title"><a href="/blog/2011/06/11/first-steps-with-leaflet-custommarker-with-canvas-and-geolocation/">First steps with Leaflet: CustomMarker with canvas and geolocation</a></h2>
-  <p class="meta">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-11T10:47:00+02:00" pubdate data-updated="true">June 11, 2011</time></p>
-  
-    <p class="dark">Posted in <a class='category' href='/blog/categories/experiment/'>experiment</a>.</p>
-      
-</header>
-    </article>
-  
+<div class="entry-content"><div class="columns">
+  <div class="columns-content">
+    <p>
+      Thanks to <a href="http://twitter.com/jatorre" title="Javier de la Torre">@jatorre</a> I discovered a <a href="http://broady.github.com/Dotter/example.html">great representation of thousand
+      of markers using canvas</a> image in Google Maps (using Javascript of course), developed by <a href="http://twitter.com/broady" title="Broady">@broady</a>, a great Google developer.
+      <br/><br/>
+      It uses Gmaps markers with a simple canvas transformed to image. So I’vedecided to create the same example with Leaflet, with two options:
+    </p>
+    <ul>
+      <li>Rendering points with Leaflet marker (<a href="http://xavijam.github.com/Leaflet-Dotter/?markers=true" title="leaflet-dotter">go</a>).</li>
+      <li>Rendering points with a custom own marker (<a herf="http://xavijam.github.com/Leaflet-Dotter/" title="leaflet-dotter">go!</a>).</li>
+    </ul>
+    <p>
+      From my point of view the difference is sensible using own marker than Leaflet marker.
+      As always, the source is available on <a herf="https://github.com/xavijam/Leaflet-Dotter" title="GitHub">GitHub</a>.
+      <br/><br/>
+      Also, if you want to compare deeply, I made one week ago the same experiment with <a herf="http://xavijam.github.com/Gmaps-Dotter/" title="GMaps">GMaps</a>) + custom Gmaps OverlayView.
+    </p>
+  </div>
 </div>
 
-  
-</article>
+</div>
+
+    <footer>
+      <p class="meta">
+        
+          <button class="ladda-button" data-href="/blog/2011/06/11/first-steps-with-leaflet-custommarker-with-canvas-and-geolocation/" data-color="blue" data-style="expand-right" data-size="s"><span class="ladda-label">&laquo; prev post</span></button>
+        
+        
+          <button class="ladda-button" data-href="/blog/2011/08/09/messy-css/" data-color="blue" data-style="expand-left" data-size="s"><span class="ladda-label">next post &raquo;</span></button>
+        
+      </p>
+    </footer>
+  </article>
+</div>
     </div>
   </div>
   

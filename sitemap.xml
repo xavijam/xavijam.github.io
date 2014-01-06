@@ -117,6 +117,64 @@
   
   
   
+  
+  <url>
+    <loc>http://xavij.am/blog/page/2</loc>
+    <lastmod>2014-01-06</lastmod>
+    
+    
+  </url>
+  
+  
 
+  
+  <url>
+    <loc>http://xavij.am/blog/2012/08/16/cartodb-idealista/</loc>
+    <lastmod>2012-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xavij.am/blog/2012/07/31/after-some-years-its-time-to-recap-dot-dot-dot/</loc>
+    <lastmod>2012-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xavij.am/blog/2012/04/03/i-need-you/</loc>
+    <lastmod>2012-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xavij.am/blog/2011/09/12/ill-be-at-denver-talking-about-maps-plus-html5/</loc>
+    <lastmod>2011-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xavij.am/blog/2011/08/09/messy-css/</loc>
+    <lastmod>2011-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xavij.am/blog/2011/06/19/rendering-5000-canvas-markers-with-leaflet/</loc>
+    <lastmod>2011-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://xavij.am/blog/2011/06/11/first-steps-with-leaflet-custommarker-with-canvas-and-geolocation/</loc>
+    <lastmod>2011-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

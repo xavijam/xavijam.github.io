@@ -4,7 +4,7 @@
   <title><![CDATA[Category: experiment | xavijam]]></title>
   <link href="http://xavij.am/blog/categories/experiment/atom.xml" rel="self"/>
   <link href="http://xavij.am/"/>
-  <updated>2014-01-06T01:07:31+01:00</updated>
+  <updated>2014-01-06T01:16:20+01:00</updated>
   <id>http://xavij.am/</id>
   <author>
     <name><![CDATA[xavijam]]></name>
@@ -12,5 +12,85 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CartoDB ♥ Idealista]]></title>
+    <link href="http://xavij.am/blog/2012/08/16/cartodb-idealista/"/>
+    <updated>2012-08-16T09:30:00+02:00</updated>
+    <id>http://xavij.am/blog/2012/08/16/cartodb-idealista</id>
+    <content type="html"><![CDATA[<div class="columns">
+  <div class="columns-content">
+    <p>
+      Everybody has looked for a house at some point in their lives, and it's not an easy job. Some months ago was my turn, and I dove into one of the most important real estate portals in Spain called <a href="http://www.idealista.com" target="_blank">Idealista</a>. Really simple and easy to find a house or flat that fits for you. But (there is always a but) I realized they don't use any kind of maps to represent the districts and neighborhoods, in fact, they use map images.
+      <br/><br/>
+      <a href="http://www.idealista.com/alquiler-viviendas/madrid/arganzuela/mapa" target="_blank"><img title="idealista-map" alt="idealista-map" src="http://xavij.am/assets/img/posts/cartodb-idealista/idealista.jpg" /></a>
+      <br/>
+      Thanks to this I decided to do an alternative using <a href="http://cartodb.com" target="_blank">CartoDB</a> and <a href="http://leaflet.cloudmade.com" target="_blank">Leaflet</a>. Just a simple interactive example of Madrid districts and neighborhoods.
+      <br/><br/>
+      <a href="http://xavij.am/idealista" target="_blank"><img title="idealista-map" alt="idealista-map" src="http://xavij.am/assets/img/posts/cartodb-idealista/idealista-cartodb.jpg" /></a>
+      <br/>
+      You can visit the example <a href="http://xavij.am/idealista">here</a>. The code, as always, is in <a href="https://github.com/xavijam/idealista" target="_blank">GitHub</a>, and the data is available in this <a href="https://xavijam.cartodb.com/tables/5275/public" target="_blank">CartoDB table</a> (amount on sale or rent houses are bogus).
+      <br/><br/>
+      <strong>UPDATED:</strong> Thanks for the corrections <a href="http://twitter.com/javier" target="_blank">@javier</a> :).
+    </p>
+  </div>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rendering 5000 canvas markers with Leaflet]]></title>
+    <link href="http://xavij.am/blog/2011/06/19/rendering-5000-canvas-markers-with-leaflet/"/>
+    <updated>2011-06-19T09:30:00+02:00</updated>
+    <id>http://xavij.am/blog/2011/06/19/rendering-5000-canvas-markers-with-leaflet</id>
+    <content type="html"><![CDATA[<div class="columns">
+  <div class="columns-content">
+    <p>
+      Thanks to <a href="http://twitter.com/jatorre" title="Javier de la Torre">@jatorre</a> I discovered a <a href="http://broady.github.com/Dotter/example.html">great representation of thousand
+      of markers using canvas</a> image in Google Maps (using Javascript of course), developed by <a href="http://twitter.com/broady" title="Broady">@broady</a>, a great Google developer.
+      <br/><br/>
+      It uses Gmaps markers with a simple canvas transformed to image. So I’vedecided to create the same example with Leaflet, with two options:
+    </p>
+    <ul>
+      <li>Rendering points with Leaflet marker (<a href="http://xavijam.github.com/Leaflet-Dotter/?markers=true" title="leaflet-dotter">go</a>).</li>
+      <li>Rendering points with a custom own marker (<a herf="http://xavijam.github.com/Leaflet-Dotter/" title="leaflet-dotter">go!</a>).</li>
+    </ul>
+    <p>
+      From my point of view the difference is sensible using own marker than Leaflet marker.
+      As always, the source is available on <a herf="https://github.com/xavijam/Leaflet-Dotter" title="GitHub">GitHub</a>.
+      <br/><br/>
+      Also, if you want to compare deeply, I made one week ago the same experiment with <a herf="http://xavijam.github.com/Gmaps-Dotter/" title="GMaps">GMaps</a>) + custom Gmaps OverlayView.
+    </p>
+  </div>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First steps with Leaflet: CustomMarker with canvas and geolocation]]></title>
+    <link href="http://xavij.am/blog/2011/06/11/first-steps-with-leaflet-custommarker-with-canvas-and-geolocation/"/>
+    <updated>2011-06-11T10:47:00+02:00</updated>
+    <id>http://xavij.am/blog/2011/06/11/first-steps-with-leaflet-custommarker-with-canvas-and-geolocation</id>
+    <content type="html"><![CDATA[<div class="columns">
+  <div class="columns-content">
+    <p>Several moths ago I wanted to create a working example using W3C geolocation and a custom marker (similar to there is in the iphone maps application) in Google Maps v3.
+    But these days has appeared <a href="http://leafletjs.com/" title="Leaflet">Leaflet</a>, a new lightweight JavaScript library for making tile-based interactive maps, and I've decided to give it a try. My first approach has consisted of:</p>
+    <ul>
+      <li>A custom marker made with Canvas.</li>
+      <li>Canvas animation in the marker (probably too heavy for the CPU, but it's a test).</li>
+    </ul>
+    <p>Just click in the image to try it (Pss, let me to know your position :) ). If you want to download the code, it's in <a href="https://github.com/xavijam/geolocate-point" title="GitHub">github</a>. I've found two things really weird related to geolocation:</p>
+    <ul>
+      <li>Safari (5.0.5) doesn't return anything in geolocation, it gets an error :S.</li>
+      <li>Firefox can give you more information than other browser (city, country, street, number,...), <a href="http://davidwalsh.name/dw-content/geolocation.php" title="geo">try it with your browser</a>.</li>
+    </ul>
+    <p>Leaflet is continually improving the library, although there are some features under developement, you can find a lot of examples to start using it.</p>
+  </div>
+</div>
+
+]]></content>
+  </entry>
   
 </feed>

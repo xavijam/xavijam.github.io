@@ -7,11 +7,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Category: experiment · xavijam</title>
+    <title>First steps with Leaflet: CustomMarker with canvas and geolocation · xavijam</title>
     
-    <meta name="description" content="Category: experiment" />
+    <meta name="description" content="Javier Álvarez Medina personal webpage. Front-end developer at Vizzuality." />
     
-    <meta name="keywords" content="jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,computer,science,vizzuality,maps,biodiversity,front-end,html5,informatics,developer,CartoDB,maps,Leaflet" />
+    <meta name="keywords" content="leaflet, maps, canvas" />
     <meta name="distribution" content="Global">
     <meta name="author" content="xavijam">
     <meta name="detail" content="xavijam personal webpage">
@@ -25,8 +25,8 @@
     <meta name="geo.position" content="40.4166909, -3.7003454">
     <meta name="ICBM" content="40.4166909, -3.7003454">
 
-    <meta property="og:title" content="Category: experiment · xavijam"/>
-    <meta property="og:description" content="Category: experiment"/> 
+    <meta property="og:title" content="First steps with Leaflet: CustomMarker with canvas and geolocation · xavijam"/>
+    <meta property="og:description" content="Javier Álvarez Medina personal webpage. Front-end developer at Vizzuality."/> 
     <meta property="og:type" content="Personal webpage"/>
     <meta property="og:url" content="http://xavij.am" />
     
@@ -34,14 +34,14 @@
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@xavijam">
-    <meta name="twitter:title" content="Category: experiment · xavijam">
-    <meta name="twitter:description" content="Category: experiment">
+    <meta name="twitter:title" content="First steps with Leaflet: CustomMarker with canvas and geolocation · xavijam">
+    <meta name="twitter:description" content="Javier Álvarez Medina personal webpage. Front-end developer at Vizzuality.">
     <meta name="twitter:creator" content="@xavijam">
     <meta name="twitter:image:src" content="http://xavij.am/assets/img/layout/thumbnail.png">
     <meta name="twitter:domain" content="xavij.am">
 
     
-    <link rel="canonical" href="http://xavij.am/blog/categories/experiment">
+    <link rel="canonical" href="http://xavij.am/blog/2011/06/11/first-steps-with-leaflet-custommarker-with-canvas-and-geolocation">
     <link href="/favicon.ico" rel="icon">
     <link href='http://fonts.googleapis.com/css?family=Lato:lighter,regular,bold&amp;subset=latin' rel='stylesheet'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -61,109 +61,62 @@
 </header>
   <div id="main">
     <div id="content">
-      <article class="heading">
-  
+      <div>
+  <article class="hentry" role="article">
+    
   <header>
-    <h2 class="page-title">Category: Experiment</h2>
+    
+      <h2 class="entry-title">First Steps With Leaflet: CustomMarker With Canvas and Geolocation</h2>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-11T10:47:00+02:00" pubdate data-updated="true">June 11, 2011</time>
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
-  
-    
-    
-
-    
-      
-      <h3 class="center grey">2012</h3>
-    
-
-    <article class="">
-      
-<header>
-  <h2 class="entry-title"><a href="/blog/2012/08/16/cartodb-idealista/">CartoDB ♥ Idealista</a></h2>
-  <p class="meta">
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-16T09:30:00+02:00" pubdate data-updated="true">August 16, 2012</time></p>
-  
-    <p class="dark">Posted in <a class='category' href='/blog/categories/experiment/'>experiment</a>.</p>
-      
-</header>
-    </article>
-  
-    
-    
-
-    
-      
-      <h3 class="center grey">2011</h3>
-    
-
-    <article class="even">
-      
-<header>
-  <h2 class="entry-title"><a href="/blog/2011/06/19/rendering-5000-canvas-markers-with-leaflet/">Rendering 5000 canvas markers with Leaflet</a></h2>
-  <p class="meta">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-19T09:30:00+02:00" pubdate data-updated="true">June 19, 2011</time></p>
-  
-    <p class="dark">Posted in <a class='category' href='/blog/categories/experiment/'>experiment</a>.</p>
-      
-</header>
-    </article>
-  
-    
-    
-
-    
-
-    <article class="">
-      
-<header>
-  <h2 class="entry-title"><a href="/blog/2011/06/11/first-steps-with-leaflet-custommarker-with-canvas-and-geolocation/">First steps with Leaflet: CustomMarker with canvas and geolocation</a></h2>
-  <p class="meta">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-11T10:47:00+02:00" pubdate data-updated="true">June 11, 2011</time></p>
-  
-    <p class="dark">Posted in <a class='category' href='/blog/categories/experiment/'>experiment</a>.</p>
-      
-</header>
-    </article>
-  
+<div class="entry-content"><div class="columns">
+  <div class="columns-content">
+    <p>Several moths ago I wanted to create a working example using W3C geolocation and a custom marker (similar to there is in the iphone maps application) in Google Maps v3.
+    But these days has appeared <a href="http://leafletjs.com/" title="Leaflet">Leaflet</a>, a new lightweight JavaScript library for making tile-based interactive maps, and I&#8217;ve decided to give it a try. My first approach has consisted of:</p>
+    <ul>
+      <li>A custom marker made with Canvas.</li>
+      <li>Canvas animation in the marker (probably too heavy for the CPU, but it&#8217;s a test).</li>
+    </ul>
+    <p>Just click in the image to try it (Pss, let me to know your position :) ). If you want to download the code, it&#8217;s in <a href="https://github.com/xavijam/geolocate-point" title="GitHub">github</a>. I&#8217;ve found two things really weird related to geolocation:</p>
+    <ul>
+      <li>Safari (5.0.5) doesn&#8217;t return anything in geolocation, it gets an error :S.</li>
+      <li>Firefox can give you more information than other browser (city, country, street, number,&#8230;), <a href="http://davidwalsh.name/dw-content/geolocation.php" title="geo">try it with your browser</a>.</li>
+    </ul>
+    <p>Leaflet is continually improving the library, although there are some features under developement, you can find a lot of examples to start using it.</p>
+  </div>
 </div>
 
-  
-</article>
+</div>
+
+    <footer>
+      <p class="meta">
+        
+        
+          <button class="ladda-button" data-href="/blog/2011/06/19/rendering-5000-canvas-markers-with-leaflet/" data-color="blue" data-style="expand-left" data-size="s"><span class="ladda-label">next post &raquo;</span></button>
+        
+      </p>
+    </footer>
+  </article>
+</div>
     </div>
   </div>
   
