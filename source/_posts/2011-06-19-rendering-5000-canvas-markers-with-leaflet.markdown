@@ -23,7 +23,7 @@ keywords:     leaflet, map, canvas, rendering
     </ul>
     <p>
       From my point of view the difference is sensible using own marker than Leaflet marker.
-      As always, the source is available on <a herf="https://github.com/xavijam/Leaflet-Dotter" title="GitHub">GitHub</a>.
+      As always, the source is available on <a href="https://github.com/xavijam/Leaflet-Dotter" title="GitHub">GitHub</a>.
       <br/><br/>
       Also, if you want to compare deeply, I made one week ago the same experiment with <a herf="http://xavijam.github.com/Gmaps-Dotter/" title="GMaps">GMaps</a>) + custom Gmaps OverlayView.
     </p>
