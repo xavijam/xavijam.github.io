@@ -33,6 +33,21 @@
         "preview":  "AFG",
         
         "type":     ""
+      } ,
+      
+    
+      
+      {
+        "title":    "CartoDB",
+        "excerpt":  "",
+        "date":     "2012-11-28",
+        "url":      "/projects/cartodb/",
+        "by":       [ "Vizzuality" ],
+        
+        "link":     "http://cartodb.com",
+        
+        
+        "type":     ""
       } 
       
        
