@@ -33,6 +33,7 @@
         {% include page/technologies.html even=true %}
       {% endif %}
 
+      {% comment %}
       <article class="project">
         <header>
           <h3 class="page-heading">More projects?</h3>
@@ -40,8 +41,9 @@
         </header>
         <div class="page-content"></div>
       </article>
+      {% endcomment %}
 
-      {% include recent_posts.html even=true %}
+      {% include recent_posts.html even=false %}
     </div>
 
     {% include footer.html %}
