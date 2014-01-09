@@ -16,6 +16,7 @@ subscribe_rss: /atom.xml
 subscribe_email: xavijam@gmail.com
 # RSS feeds can list your email address if you like
 email: xavijam@gmail.com
+google_analytics_tracking_id: UA-6602253-10
 
 
 # ----------------------- #

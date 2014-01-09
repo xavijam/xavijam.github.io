@@ -13,7 +13,7 @@
           <h2 class="page-title">Javier Álvarez Medina</h2>
           <p class="page-subtitle italic">{{ current.position.name }} at <a class="{{ current.company.name | downcase }}" href="{{ current.company.url }}">{{ current.company.name }}</a></p>
         </header>
-        <div class="page-content">{{ content | expand_urls: root_url }}</div>
+        <div class="page-content padding">{{ content | expand_urls: root_url }}</div>
       </article>
 
       {% if page.technologies and page.technologies.size > 0 %}

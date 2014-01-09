@@ -10,7 +10,7 @@
         <header>
           <h2 class="page-title">{{ page.title }}</h2>
           <p class="page-subtitle italic">{{ page.description }}</p>
-          <p class="page-subtitle">{{ page.start }}{% if page.end %} - {{ page.end }} {% endif %}</p>
+          <p class="page-subtitle">{{ page.date | date: '%Y' }}</p>
         </header>
       </article>
 
@@ -19,7 +19,7 @@
       {% endif %}
 
       <article>
-        <div class="page-content">
+        <div class="page-content no-padding">
           {{ content | expand_urls: root_url }}
           {% if page.link %}
           <div class="navigation">
