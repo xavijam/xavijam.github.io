@@ -519,6 +519,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "sass/home.scss",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/core.scss",
+			"settings":
+			{
+				"buffer_size": 3084,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/index.html",
+			"settings":
+			{
+				"buffer_size": 1668,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_layouts/about.html",
+			"settings":
+			{
+				"buffer_size": 1356,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/_includes/recent_posts.html",
+			"settings":
+			{
+				"buffer_size": 790,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -579,11 +619,47 @@
 	},
 	"file_history":
 	[
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/partials/recent_posts.scss",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/.sass-cache/59219fe8f02de6eb9a5402c9a629c483d0b957a8/recent_posts.scssc",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/.sass-cache/2e9db3cb7783e2e2121a2ef5f6230e4a9363457d/recent_posts.scssc",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/recent_posts.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/Rakefile",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_posts/2011-09-12-ill-be-at-denver-talking-about-maps-plus-html5.markdown",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/_deploy/about/index.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/afg.md",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/public/about/index.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/about.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/openlayers.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/.sass-cache/15f0e72287a3493aebd69b4ea9f270835081e0bb/ladda.scssc",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/living-cities.md",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/about/index.md",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/partials/items_list.scss",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/public/index.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/index.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/_deploy/blog/index.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/public/blog/index.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/.sass-cache/27a51eb901a81d887d1122dbdcf99d00bbe07474/home.scssc",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/_deploy/css/home.css",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/_deploy/js/home.js",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/public/css/home.css",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/public/js/home.js",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/home.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/google_analytics.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/project.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/cartodb.md",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/core.scss",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/project/project.js",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/projects.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/ppe.md",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/previews/AFG.scss",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/google8e6669a24fee7d00.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/public/google8e6669a24fee7d00.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/_deploy/google8e6669a24fee7d00.html",
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/vendor/pure-grid.scss",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/_config.yml",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_posts/2011-06-19-rendering-5000-canvas-markers-with-leaflet.markdown",
 		"/Users/xavijam/Workspace/xavijam/madridjs/README",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/plugins/projects.rb",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/Rakefile",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/plugins/include.rb",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/plugins/.rvmrc",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/_plugins/include_array.rb",
@@ -596,13 +672,11 @@
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/config.rb",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/Gemfile",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/_plugins/backtick_code_block.rb",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/index.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_drafts/open-source-why-is-it-important.markdown",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_drafts/antarctic-stations-tour-guide.markdown",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/page/social.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/sitemap.xml",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/config.ru",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/core.scss",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/Gemfile.lock",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/plugins/jekyll-assets.rb",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/xavijam.sublime-workspace",
@@ -611,25 +685,15 @@
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/vendor/modernizr.min.js",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/modernizr.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/main.js",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/partials/recent_posts.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/previews/AFG.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/about.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/partials/items_list.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/about/index.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/footer.scss",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/home.scss",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/evolution-of-the-web-10.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/page/technologies.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/project.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/recent_posts.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/header.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/footer.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_posts/2011-06-11-first-steps-with-leaflet-custommarker-with-canvas-and-geolocation.markdown",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/head.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/home.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/project.js",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/project/project.js",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/projects.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/pure-grid.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/category_feed.xml",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/partials/project_item.scss",
@@ -656,9 +720,6 @@
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/css/vendor/ladda.css",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/css/ladda.css",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/vendor/ladda.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/living-cities.md",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/vendor/pure-grid.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/ppe.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/d3js.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/vendor/d3.v3.min.js",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_drafts/new-website-and-blog.markdown",
@@ -667,12 +728,10 @@
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_posts/2012-04-3-i-need-you.markdown",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/jquery-ui.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/models/user.js",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/afg.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_posts/2012-07-31-after-some-years-its-time-to-recap-dot-dot-dot.markdown",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/vendor/topojson.v1.min.js",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/default_list_item.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/ruby-rails.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/openlayers.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/css/previews/AFG.css",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/css/projects/AFG.css",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/home/projects/AFG.js",
@@ -683,30 +742,11 @@
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/category_index.html",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/geocat.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/evolution-of-the-web-20.md",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/cartodb.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/betissanisidro.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/oldweather.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/google-languages.md",
 		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_projects/spanishelections.md",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/archive_post.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/simple.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_layouts/default.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/article.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/post/date.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/assets/data/test.json",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/assets/data/xavijam.json",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/error.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/css/body.css",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/post/categories.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/assets/data/antarctica_stations.csv",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/tag-it.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/css/home.css",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/app.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/sass/projects/AFG.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/technologies/gmaps.html",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/home/projects/GMBA.js",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/css/projects/AFG.scss",
-		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/js/home/templates/default_year.jst.ejs"
+		"/Users/xavijam/Workspace/xavijam/xavijam.github.io/source/_includes/archive_post.html"
 	],
 	"find":
 	{
@@ -852,6 +892,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"to the Antarctica",
+			"google_analytics",
 			"friend conn",
 			"generate",
 			"include_array",
@@ -977,9 +1019,7 @@
 			"article",
 			"font",
 			"layout: page",
-			"previous_",
-			"blog",
-			"my blog"
+			"previous_"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -997,8 +1037,159 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "sass/home.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/core.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/_layouts/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/_includes/recent_posts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								770
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1049,6 +1240,46 @@
 		"selected_items":
 		[
 			[
+				"core",
+				"sass/core.scss"
+			],
+			[
+				"recentposst",
+				"source/_includes/recent_posts.html"
+			],
+			[
+				"about",
+				"source/_layouts/about.html"
+			],
+			[
+				"aboutindex",
+				"source/about/index.md"
+			],
+			[
+				"index",
+				"source/index.html"
+			],
+			[
+				"home",
+				"sass/home.scss"
+			],
+			[
+				"cartodb",
+				"source/_projects/cartodb.md"
+			],
+			[
+				"project",
+				"source/_layouts/project.html"
+			],
+			[
+				"afg",
+				"source/_projects/afg.md"
+			],
+			[
+				"google",
+				"source/_includes/google_analytics.html"
+			],
+			[
 				"sourceindex",
 				"source/index.html"
 			],
@@ -1059,14 +1290,6 @@
 			[
 				"xavijam",
 				"source/assets/data/xavijam.json"
-			],
-			[
-				"about",
-				"source/_layouts/about.html"
-			],
-			[
-				"index",
-				"source/about/index.md"
 			],
 			[
 				"social",
@@ -1093,16 +1316,8 @@
 				"source/_includes/page/technologies.html"
 			],
 			[
-				"project",
-				"source/_layouts/project.html"
-			],
-			[
 				"recent",
 				"source/_includes/recent_posts.html"
-			],
-			[
-				"aboutindex",
-				"source/about/index.md"
 			],
 			[
 				"projec",
@@ -1117,10 +1332,6 @@
 				"source/js/projects/project_item.js"
 			],
 			[
-				"afg",
-				"sass/previews/AFG.scss"
-			],
-			[
 				"vars",
 				"sass/vars.scss"
 			],
@@ -1129,20 +1340,12 @@
 				"sass/page.scss"
 			],
 			[
-				"core",
-				"sass/core.scss"
-			],
-			[
 				"mileston",
 				"source/js/home/milestones_timeline.js"
 			],
 			[
 				"home.js",
 				"source/js/home.js"
-			],
-			[
-				"home",
-				"source/_layouts/home.html"
 			],
 			[
 				"jey",
@@ -1211,10 +1414,6 @@
 			[
 				"ppe",
 				"source/_projects/ppe.md"
-			],
-			[
-				"cartodb",
-				"source/_projects/cartodb.md"
 			],
 			[
 				"archive_post",
@@ -1551,14 +1750,6 @@
 			[
 				"ideali",
 				"source/_posts/2012-08-16-cartodb-idealista.markdown"
-			],
-			[
-				"cartodbideali",
-				"source/_posts/2012-08-16-cartodb-idealista.markdown"
-			],
-			[
-				"rakefil",
-				"Rakefile"
 			]
 		],
 		"width": 0.0
@@ -1586,7 +1777,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 356.0,
+	"side_bar_width": 163.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
