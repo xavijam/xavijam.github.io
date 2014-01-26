@@ -4,7 +4,7 @@
   <title><![CDATA[xavijam]]></title>
   <link href="http://xavij.am/atom.xml" rel="self"/>
   <link href="http://xavij.am/"/>
-  <updated>2014-01-10T00:23:47+01:00</updated>
+  <updated>2014-01-27T00:45:02+01:00</updated>
   <id>http://xavij.am/</id>
   <author>
     <name><![CDATA[xavijam]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Five years at Vizzuality]]></title>
+    <link href="http://xavij.am/blog/2014/01/27/Five-years-at-Vizzuality/"/>
+    <updated>2014-01-27T09:00:00+01:00</updated>
+    <id>http://xavij.am/blog/2014/01/27/Five-years-at-Vizzuality</id>
+    <content type="html"><![CDATA[<div class="columns">
+  <div class="columns-content">
+    <p>
+      There is no a better moment to start again with my blog, celebrating my fifth anniversary at Vizzuality. After my first years in this wadusfera I can only say thanks to the team and the people who have worked here.
+      <br/><br/>
+      <img title="some-of-the-team" alt="some-of-the-team" src="http://xavij.am/assets/img/posts/five-years-vizzuality/ha.jpg" />
+      <br/>
+      I could say we have done things (some we can&#8217;t mention) that we are proud. Lot of projects, with great companies, things that mattered.
+      <br/><br/>
+      But this adventure hasn&#8217;t finished and we are ready for new opportunities, and this year is gonna be special.
+      <br/><br/>
+      I usually like to remember that we were 5 years ago working in a small room in <a href="https://maps.google.com/?q=calle%20angosta%20de%20los%20mancebos,%20madrid">La Latina</a>, tons of dreams, and today I keep them present. If someone asks me about my future, I&#8217;d say the same as before. Keeping the feeling what I do is important.
+      <br/><br/>
+      My gift for this birthday is a <a href="http://xavij.am/luisoundsystem">small audio player</a><sup>1</sup><sup>2</sup>, using <a href="http://twitter.com/luisico">@luisico</a>&#8217;s sounds playing FIFA :D. If you know him you, you will know how expressive he is. Thanks to all the team for the recordings, to <a href="http://twitter.com/ferdev">@ferdev</a> for splitting the audio files into separate tracks and finally to <a href="http://twitter.com/damagedgoods">@damagedgoods</a> for designing something for this purpose :).
+      <br/><br/>
+      So, I hope I finish my website soon, and later a visualization I&#8217;ve been developing lately.
+      Writing a post every two weeks, &#8230; Let&#8217;s see if it is possible.
+      <br/><br/>
+      New year, new purposes.
+      <br/><br/><br/>
+      <i><sup>1</sup> My favorite luisico sound is <a href="http://xavij.am/luisoundsystem/#/claclaclaclaclaclacla">this</a>.</i>
+      <br/>
+      <i><sup>2</sup> Sorry, only HTML5 browsers.</i>
+    </p>
+  </div>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CartoDB ♥ Idealista]]></title>

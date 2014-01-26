@@ -6,7 +6,7 @@
   
   <url>
     <loc>http://xavij.am/404.html</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -15,7 +15,7 @@
   
   <url>
     <loc>http://xavij.am/about</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -30,7 +30,7 @@
   
   <url>
     <loc>http://xavij.am/blog/archives</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -39,7 +39,7 @@
   
   <url>
     <loc>http://xavij.am/blog</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -48,7 +48,7 @@
   
   <url>
     <loc>http://xavij.am</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -63,7 +63,7 @@
   
   <url>
     <loc>http://xavij.am/projects/afg</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -72,7 +72,7 @@
   
   <url>
     <loc>http://xavij.am/projects/cartodb</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -81,7 +81,7 @@
   
   <url>
     <loc>http://xavij.am/blog/categories/experiment</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -93,7 +93,7 @@
   
   <url>
     <loc>http://xavij.am/blog/categories/presentation</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -105,7 +105,7 @@
   
   <url>
     <loc>http://xavij.am/blog/categories/news</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -117,7 +117,7 @@
   
   <url>
     <loc>http://xavij.am/blog/categories/project</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
@@ -129,13 +129,20 @@
   
   <url>
     <loc>http://xavij.am/blog/page/2</loc>
-    <lastmod>2014-01-10</lastmod>
+    <lastmod>2014-01-27</lastmod>
     
     
   </url>
   
   
 
+  
+  <url>
+    <loc>http://xavij.am/blog/2014/01/27/Five-years-at-Vizzuality/</loc>
+    <lastmod>2014-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://xavij.am/blog/2012/08/16/cartodb-idealista/</loc>
