@@ -15,9 +15,7 @@ keywords:     vizzuality, jobs, five, CartoDB, team
       <br/><br/>
       <img title="some-of-the-team" alt="some-of-the-team" src="/assets/img/posts/five-years-vizzuality/ha.jpg" />
       <br/>
-      I could say we have done things (some we can't mention) that we are proud. Lot of projects, with great companies, things that mattered.
-      <br/><br/>
-      But this adventure hasn't finished and we are ready for new opportunities, and this year is gonna be special.
+      I could say we have done things (some we can't mention) that we are proud. Lot of projects, with great companies, things that mattered. But this adventure hasn't finished and we are ready for new opportunities, and this year is gonna be special.
       <br/><br/>
       I usually like to remember that we were 5 years ago working in a small room in <a href="https://maps.google.com/?q=calle%20angosta%20de%20los%20mancebos,%20madrid">La Latina</a>, tons of dreams, and today I keep them present. If someone asks me about my future, I'd say the same as before. Keeping the feeling what I do is important.
       <br/><br/>
@@ -30,7 +28,7 @@ keywords:     vizzuality, jobs, five, CartoDB, team
       <br/><br/><br/>
       <i><sup>1</sup> My favorite luisico sound is <a href="http://xavij.am/luisoundsystem/#/claclaclaclaclaclacla">this</a>.</i>
       <br/>
-      <i><sup>2</sup> Sorry, only HTML5 browsers.</i>
+      <i><sup>2</sup> Sorry, only HTML5 browsers, problems under iOS :(.</i>
     </p>
   </div>
 </div>
