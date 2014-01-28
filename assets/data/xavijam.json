@@ -38,6 +38,19 @@
     
       
       {
+        "title":    "Betis San Isidro",
+        "excerpt":  "My childhood football team was in trouble after a bad management, how to help them?.<br />I designed, developed and maintained their website along three years. It meant my first experience with <a href='http://wordpress.org'>Wordpress</a> and PHP.<br />",
+        "date":     "2010-09-01",
+        "url":      "/projects/betissanisidro/",
+        "by":       [  ],
+        
+        
+        "type":     ""
+      } ,
+      
+    
+      
+      {
         "title":    "CartoDB",
         "excerpt":  "",
         "date":     "2012-11-28",
