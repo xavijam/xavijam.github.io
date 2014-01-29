@@ -11,6 +11,6 @@ link:         http://geocat.kew.org/
 by:           [Vizzuality]
 path:         geocat
 image:        false
-technologies: []
-published:    false
+technologies: ['ruby-rails', 'backbone', 'compass', 'jquery', 'jquery-ui', 'select2']
+published:    true
 ---
