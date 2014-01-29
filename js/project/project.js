@@ -8,13 +8,13 @@
     var Project = Backbone.View.extend({
       
       initialize: function() {
-        _.bindAll(this, '_renderProject');
+        _.bindAll(this, '_renderProject', '_setPrevNext');
         
         this._initViews();
 
         // Fetch xavijam
         this.model = new User();
-        this.model.fetch({ success: this._renderProject });
+        this.model.fetch({ success: this._setPrevNext });
       },
 
       _initBinds: function() {},
@@ -28,6 +28,35 @@
               lastNeverTallest: true
             });
         }
+      },
+
+      _setPrevNext: function() {
+        var current_title = this.$('h2.page-title').text();
+        var col = this.model.get('milestones');
+        var mod = col.find(function(m) { return m.get('title') == current_title });
+        var pos = col.indexOf(mod);
+
+        // Prev
+        var prev;
+        if (pos >= (col.size() - 1) ) {
+          prev = col.at(0);
+        } else {
+          prev = col.at(pos + 1);
+        }
+        this.$('.projects-navigation .prev')
+          .attr('href', prev.get('url'))
+          .find('span').text(prev.get('title'))
+
+        // Next
+        var next;
+        if (pos == 0) {
+          next = col.at(col.size() - 1);
+        } else {
+          next = col.at(pos - 1);
+        }
+        this.$('.projects-navigation .next')
+          .attr('href', next.get('url'))
+          .find('span').text(next.get('title'))
       },
 
       _renderProject: function(m) {
