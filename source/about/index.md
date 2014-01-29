@@ -2,7 +2,7 @@
 layout: about
 title: About
 description: Technology and environment can live together
-technologies: [jekyll, backbone, jquery, pure-grid, d3js, modernizr, spinjs, ladda]
+technologies: [jekyll, compass, backbone, jquery, pure-grid, d3js, modernizr, spinjs, ladda]
 ---
 
 <div class="columns">
