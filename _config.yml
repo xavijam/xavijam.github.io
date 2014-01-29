@@ -42,7 +42,7 @@ pygments:    true
 paginate: 4                     # Posts per page on the blog index
 paginate_path: "blog/page/:num" # Directory base for pagination URLs eg. /blog/page/2/
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
-titlecase: true                 # Converts page and post titles to titlecase
+titlecase:    false             # Converts page and post titles to titlecase
 
 markdown:      rdiscount
 rdiscount:
