@@ -13,8 +13,14 @@
         this._initViews();
 
         // Fetch xavijam
+        var self = this;
         this.model = new User();
-        this.model.fetch({ success: this._setPrevNext });
+        this.model.fetch({
+          success: function() {
+            self._setPrevNext()
+            self._renderProject()
+          }
+        });
       },
 
       _initBinds: function() {},
