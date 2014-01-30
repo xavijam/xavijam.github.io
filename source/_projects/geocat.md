@@ -12,5 +12,5 @@ by:           [Vizzuality]
 path:         geocat
 image:        false
 technologies: [ruby-rails, backbone, compass, jquery, jquery-ui, select2]
-published:    true
+published:    false
 ---
