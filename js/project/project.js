@@ -42,6 +42,8 @@
         var mod = col.find(function(m) { return m.get('title') == current_title });
         var pos = col.indexOf(mod);
 
+        if (!mod || !pos) return false;
+
         // Prev
         var prev;
         if (pos >= (col.size() - 1) ) {
