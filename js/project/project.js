@@ -42,7 +42,7 @@
         var mod = col.find(function(m) { return m.get('title') == current_title });
         var pos = col.indexOf(mod);
 
-        if (!mod || !pos) return false;
+        if (!mod) return false;
 
         // Prev
         var prev;
@@ -67,9 +67,9 @@
           .find('span').text(next.get('title'))
       },
 
-      _renderProject: function(m) {
+      _renderProject: function() {
         var current_title = this.$('h2.page-title').text();
-        var collection = m.get('milestones').filter(function(p) {
+        var collection = this.model.get('milestones').filter(function(p) {
           return p.get('preview') && p.get('title') !== current_title
         });
 
