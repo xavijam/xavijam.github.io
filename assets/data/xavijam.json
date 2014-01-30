@@ -61,6 +61,21 @@
         
         
         "type":     ""
+      } ,
+      
+    
+      
+      {
+        "title":    "GeoCAT",
+        "excerpt":  "This is an excerpt for GeoCat and don't annoy me, thanks.<br />Testing multi-line, yay!<br />",
+        "date":     "2011-02-22",
+        "url":      "/projects/geocat/",
+        "by":       [ "Vizzuality" ],
+        
+        "link":     "http://geocat.kew.org/",
+        
+        
+        "type":     "bolt"
       } 
       
        
