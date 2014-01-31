@@ -14,8 +14,14 @@
         </header>
       </article>
 
+      {% if page.link %}
+        <a href="{{ page.link }}">
+      {% endif %}
       {% if page.image %}
         {% include page/image.html %}
+      {% endif %}
+      {% if page.link %}
+        </a>
       {% endif %}
 
       <article>
