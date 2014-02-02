@@ -1,9 +1,19 @@
 {
-	"folders":
-	[
-		{
-			"follow_symlinks": true,
-			"path": "."
-		}
-	]
+  "folders":
+  [
+    {
+      "path": ".",
+      "folder_exclude_patterns": [
+        ".pygments-cache",
+        ".sass-cache",
+        "_deploy",
+        "public"
+      ],
+      "follow_symlinks": true
+    }
+  ],
+  "settings":
+  {
+    "tab_size": 2
+  }
 }
