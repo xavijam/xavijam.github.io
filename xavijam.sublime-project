@@ -9,6 +9,9 @@
         "_deploy",
         "public"
       ],
+      "file_exclude_patterns": [
+        "*.css"
+      ],
       "follow_symlinks": true
     }
   ],
