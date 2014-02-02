@@ -61,6 +61,49 @@
         
         
         "type":     ""
+      } ,
+      
+    
+      
+      {
+        "title":    "Evolution of the Web 1.0",
+        "excerpt":  "",
+        "date":     "2011-09-01",
+        "url":      "/projects/evolution-of-the-web-10/",
+        "by":       [ "Vizzuality" ],
+        
+        
+        "type":     ""
+      } ,
+      
+    
+      
+      {
+        "title":    "Evolution of the Web 2.0",
+        "excerpt":  "",
+        "date":     "2012-06-28",
+        "url":      "/projects/evolution-of-the-web-20/",
+        "by":       [ "Vizzuality" ],
+        
+        "link":     "http://www.evolutionoftheweb.com/",
+        
+        
+        "type":     ""
+      } ,
+      
+    
+      
+      {
+        "title":    "Global Mountain Biodiversity Assessment",
+        "excerpt":  "Helping scientist community to download biodiversity data related to mountains.<br />One of the projects developed with Flash technology where I was involved in my beginnings at <a href='http://vizzuality.com'>Vizzuality</a>.<br />",
+        "date":     "2010-05-07",
+        "url":      "/projects/gmba/",
+        "by":       [ "Vizzuality" ],
+        
+        "link":     "http://www.mountainbiodiversity.org/",
+        
+        
+        "type":     ""
       } 
       
        
