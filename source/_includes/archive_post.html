@@ -1,8 +1,0 @@
-{% capture category %}{{ post.categories | size }}{% endcapture %}
-<header>
-  <h2 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h2>
-  <p class="meta">{% include post/date.html %}{{ time }}</p>
-  {% if category != '0' %}
-    <p class="dark">Posted in {{ post.categories | category_links }}.</p>
-  {% endif %}    
-</header>
