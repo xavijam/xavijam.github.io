@@ -1,0 +1,56 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+gems:
+  - jekyll-sitemap
+
+name: xavijam
+title: UI developer · xavijam
+description: >
+  Because environment and technology can live together, working as UI developer at CartoDB.
+keywords: >
+  jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,
+  computer,science,vizzuality,maps,biodiversity,front-end,html5,
+  frontend,informatics,developer,CartoDB,maps,Leaflet,javascript
+thumbnail: '/img/thumbnail.jpg'
+author:
+  name: xavijam
+  email: xavijam@gmail.com
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: false
+show_drafts: false
+paginate: 4                     # Posts per page on the blog index
+paginate_path: "blog/page/:num" # Directory base for pagination URLs eg. /blog/page/2/
+permalink: blog/:title/
+
+# Markdown library
+markdown: kramdown
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
+#   coderay:
+#     coderay_wrap: div
+#     coderay_line_numbers: inline
+#     coderay_line_numbers_start: 1
+#     coderay_tab_width: 4
+#     coderay_bold_every: 10
+#     coderay_css: style
+
+pygments: false
+
+
+# Collections
+collections:
+  projects: # Projects
+    output: true

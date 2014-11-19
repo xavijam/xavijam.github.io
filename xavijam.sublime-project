@@ -4,10 +4,12 @@
     {
       "path": ".",
       "folder_exclude_patterns": [
+        ".jekyll",
         ".pygments-cache",
         ".sass-cache",
-        "_deploy",
-        "public"
+        ".tmp",
+        "dist",
+        "node_modules"
       ],
       "file_exclude_patterns": [
         "*.css"
