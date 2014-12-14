@@ -1,0 +1,31 @@
+---
+layout:       home
+title:        UI Developer
+description:  Because environment and technology can live together, working as UI developer at Vizzuality.
+body_class:   "home"
+priority:     1.0
+changefreq:   weekly
+---
+
+<header>
+  <h1><a href="/" class="logo"><i class="icon logo"></i>xavij.am</a></h1>
+</header>
+<section>
+  <p>I'm still developing my new website. In the meantime you can visit my <a href="/blog">blog</a>. Or contact me via <a href="mailto:{{ site.email }}">email</a> or through these social networks:</p>
+</section>
+<footer>
+  <nav class="social">
+    <a class="{{ site.social.twitter.name | downcase }}" href="{{ site.social.twitter.url }}" target="_blank">
+      <i class="fa fa-{{ site.social.twitter.icon }}"></i>
+      {{ site.social.twitter.name }}
+    </a>
+    <a class="{{ site.social.github.name | downcase }}" href="{{ site.social.github.url }}" target="_blank">
+      <i class="fa fa-{{ site.social.github.icon }}"></i>
+      {{ site.social.github.name }}
+    </a>
+    <a class="{{ site.social.linkedin.name | downcase }}" href="{{ site.social.linkedin.url }}" target="_blank">
+      <i class="fa fa-linkedin"></i>
+      {{ site.social.linkedin.name }}
+    </a>
+  </nav>
+</footer>

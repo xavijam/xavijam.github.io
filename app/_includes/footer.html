@@ -1,23 +1,16 @@
 <footer>
-  <div class="inner">
-    <h1 class="logo"><a href="{{ site.baseurl }}/"></a></h1>
-    <nav>
-      <a href="/taller/" class="
-        {% if (page.url == '/taller/' or page.url == '/taller/clases-puntuales/' or page.url == '/taller/alquiler-maquinas-de-coser/') %}
-          selected
-        {% endif %}
-      ">taller</a>
-      <a class="disabled {% if page.url == '/productos/' %} selected {% endif %}">productos</a>
-      <a href="/tienda/" class="{% if page.url == '/tienda/' %} selected {% endif %}">localización</a>
-      <a href="/tienda/#contacto" class="{% if page.url == '/tienda/#contacto' %} selected {% endif %}">contacto</a>
-    </nav>
-    <div class="social">
-      <a href="http://facebook.com/merceriaalonso"><i class="fa fa-facebook"></i></a>
-      <a href="http://twitter.com/merceriaalonso"><i class="fa fa-twitter"></i></a>
-      <a href="mailto:info@merceriaalonso.com"><i class="fa fa-send"></i></a>
-    </div>
-    <div class="rights">
-      ® {{ site.time | date: '%Y' }} Mercería Alonso
-    </div>
-  </div>
+  <h1><a href="/" class="logo"><i class="icon logo"></i>xavij.am</a></h1>
+  <nav>
+    <a href="/#/projects" {% if page.url contains '/projects' %} class="selected" {% endif %}>projects</a>
+    <a href="/blog" {% if page.url contains '/blog' %} class="selected" {% endif %}>blog</a>
+    <a href="/about" {% if page.url contains '/about' %} class="selected" {% endif %}>about</a>
+    <a href="mailto:{{ site.email }}">contact</a>
+  </nav>
+  <p class="thanks">Proudly created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a></p>
+  <p>
+    <a class="{{ site.social.twitter.name | downcase }}" href="{{ site.social.twitter.url }}" target="_blank">
+      <i class="fa fa-{{ site.social.twitter.icon }}"></i>
+      @{{ site.social.twitter.username }}
+    </a>
+  </p>
 </footer>

@@ -1,0 +1,27 @@
+{% unless page.no_header %}
+  <header class="Post-header">
+    <h2 class="Post-headerTitle">
+    {% if index %}
+      <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+    {% else %}
+      {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+    {% endif %}
+    </h2>
+    {% unless page.meta == false %}
+      <p class="Post-meta">
+        {% include post/date.html %}{{ time }}
+      </p>
+    {% endunless %}
+  </header>
+{% endunless %}
+{% if index %}
+  <div class="Post-content">{{ content | excerpt }}</div>
+  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+  {% if excerpted == 'true' %}
+    <footer class="Post-footer">
+      <a rel="Post-link" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+    </footer>
+  {% endif %}
+{% else %}
+<div class="Post-content">{{ content }}</div>
+{% endif %}

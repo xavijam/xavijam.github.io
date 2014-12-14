@@ -2,7 +2,7 @@
 
 // Directory reference:
 //   css: css
-//   compass: _scss
+//   sass: _scss
 //   javascript: js
 //   images: img
 //   fonts: fonts
@@ -20,9 +20,9 @@ module.exports = function (grunt) {
       dist: 'dist'
     },
     watch: {
-      compass: {
+      sass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
-        tasks: ['compass:server', 'autoprefixer:server']
+        tasks: ['sass:server', 'autoprefixer:server']
       },
       autoprefixer: {
         files: ['<%= yeoman.app %>/css/**/*.css'],
@@ -126,6 +126,32 @@ module.exports = function (grunt) {
           debugInfo: true,
           generatedImagesDir: '.tmp/img/generated'
         }
+      }
+    },
+    sass: {
+      options: {
+        bundleExec: true
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '.',
+          src: ['<%= yeoman.app %>/_scss/**/*.scss'],
+          dest: '.tmp/css',
+          ext: '.css'
+        }]
+      },
+      server: {
+        options: {
+          debugInfo: true
+        },
+        files: [{
+          expand: true,
+          cwd: '.',
+          src: ['<%= yeoman.app %>/_scss/**/*.scss'],
+          dest: '.tmp/css',
+          ext: '.css'
+        }]
       }
     },
     autoprefixer: {
@@ -314,18 +340,20 @@ module.exports = function (grunt) {
       check: {
         src: [
           '<%= yeoman.app %>/css/**/*.css',
-          '<%= yeoman.app %>/_scss/**/*.scss'
+          // '<%= yeoman.app %>/_scss/**/*.scss'
         ]
       }
     },
     concurrent: {
       server: [
-        'compass:server',
+        // 'compass:server',
+        'sass:server',
         'copy:stageCss',
         'jekyll:server'
       ],
       dist: [
-        'compass:dist',
+        'sass:dist',
+        // 'compass:dist',
         'copy:dist'
       ]
     }
@@ -361,7 +389,8 @@ module.exports = function (grunt) {
   grunt.registerTask('check', [
     'clean:server',
     'jekyll:check',
-    'compass:server',
+    // 'compass:server',
+    'sass:server',
     'jshint:all',
     'csslint:check'
   ]);

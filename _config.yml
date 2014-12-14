@@ -3,54 +3,101 @@
 # 2. config.build.yml
 # 3. config.yml
 
+# ----------------------- #
+#  Gems                   #
+# ----------------------- #
 gems:
   - jekyll-sitemap
 
+# ----------------------- #
+#  Website                #
+# ----------------------- #
 name: xavijam
 title: UI developer · xavijam
 description: >
-  Because environment and technology can live together, working as UI developer at CartoDB.
+  Because environment and technology can live together, working
+  as UI developer at CartoDB.
 keywords: >
   jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,
   computer,science,vizzuality,maps,biodiversity,front-end,html5,
   frontend,informatics,developer,CartoDB,maps,Leaflet,javascript
 thumbnail: '/img/thumbnail.jpg'
-author:
-  name: xavijam
-  email: xavijam@gmail.com
+google_analytics: UA-6602253-10
 
-# Grunt handles images and assets.
+# ----------------------- #
+#  Grunt handling         #
+# ----------------------- #
 exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+          '**.png', '**.jpg', '**.jpeg',
+          '**.gif', '**.webp', '**.svg',
+          '**.ico']
 
-include: ['.htaccess']
+include: ['robots.txt']
 
-# _config.build.yml sets future and show_drafts to false on `grunt build`
+# ----------------------- #
+#  Blog                   #
+# ----------------------- #
 future: false
 show_drafts: false
-paginate: 4                     # Posts per page on the blog index
-paginate_path: "blog/page/:num" # Directory base for pagination URLs eg. /blog/page/2/
+paginate: 4
+paginate_path: "blog/page/:num"
 permalink: blog/:title/
 
-# Markdown library
+# ----------------------- #
+#  Markdown               #
+# ----------------------- #
 markdown: kramdown
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   use_coderay: false
-#   coderay:
-#     coderay_wrap: div
-#     coderay_line_numbers: inline
-#     coderay_line_numbers_start: 1
-#     coderay_tab_width: 4
-#     coderay_bold_every: 10
-#     coderay_css: style
-
 pygments: false
 
-
-# Collections
+# ----------------------- #
+#  Collections            #
+# ----------------------- #
 collections:
   projects: # Projects
     output: true
+
+# ----------------------- #
+#  xavijam: my data       #
+# ----------------------- #
+author:
+  name: xavijam
+  email: xavijam@gmail.com
+jobs:
+  -
+    company: 
+      name:       Vizzuality
+      url:        http://vizzuality.com
+      location:   Madrid
+    position:     UI developer
+    end:          2014-12-01
+    from:         2009-2-14
+  -
+    company: 
+      name:       CartoDB
+      url:        http://cartodb.com
+      location:   Madrid
+    position:     UI developer
+    from:         2012-2-14
+
+social:
+  twitter:
+    name:         Twitter
+    username:     xavijam
+    url:          http://twitter.com/xavijam
+    description:  Sharing and discussing interesting projects
+    icon:         twitter
+  github: 
+    name:         GitHub
+    username:     xavijam
+    url:          http://github.com/xavijam
+    icon:         github-alt
+  google_plus:
+    name:         Google Plus
+    username:     +JavierAlvarezMedina
+    url:          http://google.com/+JavierAlvarezMedina
+    icon:         google-plus
+  linkedin:
+    name:         LinkedIn
+    username:     javieralvarezmedina
+    url:          http://linkedin.com/in/javieralvarezmedina
+    icon:         linkedin
