@@ -1,0 +1,17 @@
+// Icon font style
+// --------------------------------------------------
+
+@import "mixins";
+
+@include font-face('penguicon', 'penguicon', 'penguicon', 'serif');
+
+.iconFont {
+  display: inline-block;
+  font-family: 'penguIcon';
+  font-weight: 400;
+}
+<% _.each(glyphs, function(glyph) { %>
+.iconFont-<%= glyph.fileName.split("_")[2] %>:before {
+	content: "\<%= glyph.codePoint %>";
+}
+<% }); %>

@@ -45,9 +45,15 @@
   
   <!-- build:css({app,.tmp}) /css/main.css -->
   <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/common/reset.css">
+    <link rel="stylesheet" href="/css/common/icon-font.css">
     <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/_bower_components/components-font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/common/default.css">
+    <link rel="stylesheet" href="/css/common/buttons.css">
+    <link rel="stylesheet" href="/css/elements/logo.css">
+    <link rel="stylesheet" href="/css/elements/nav-list.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
   <!-- endbuild -->
 
   <!-- Page CSSs -->
@@ -63,10 +69,6 @@
       <link href="{{ static_path }}" rel="stylesheet">
     {% endfor %}
   {% endif %}
-
-  <!-- build:js(app) /js/modernizr.js -->
-    <script src="/_bower_components/modernizr/modernizr.js"></script>
-  <!-- endbuild -->
 
   <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

@@ -130,13 +130,15 @@ module.exports = function (grunt) {
     },
     sass: {
       options: {
-        bundleExec: true
+        bundleExec: true,
+        sourcemap: 'none',
+        style: 'compressed'
       },
       dist: {
         files: [{
           expand: true,
-          cwd: '.',
-          src: ['<%= yeoman.app %>/_scss/**/*.scss'],
+          cwd: '<%= yeoman.app %>/_scss',
+          src: ['**/*.scss'],
           dest: '.tmp/css',
           ext: '.css'
         }]
@@ -147,8 +149,8 @@ module.exports = function (grunt) {
         },
         files: [{
           expand: true,
-          cwd: '.',
-          src: ['<%= yeoman.app %>/_scss/**/*.scss'],
+          cwd: '<%= yeoman.app %>/_scss',
+          src: ['**/*.scss'],
           dest: '.tmp/css',
           ext: '.css'
         }]

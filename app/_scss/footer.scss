@@ -1,0 +1,36 @@
+// Footer
+// --------------------------------------------------
+
+@import "common/colors";
+@import "common/vars";
+
+.Footer {
+  max-width: $max-w;
+  margin: 0 auto;
+  padding: 20px 0;
+  height: 50px;
+  border-top: 1px solid $cStructure-softLine;
+}
+.Footer-thanks {
+  float: left;
+  font-size: 14px;
+  color: $cTypography-secondary;
+}
+.Footer-twitter {
+  float: right;
+  font-size: 14px;
+  
+  &:hover { text-decoration: none }
+}
+.Footer .iconFont-Twitter {
+  vertical-align: top;
+  margin-right: 5px;
+}
+.Footer .iconFont-Heart--empty { vertical-align: top }
+
+@media screen and (max-width: $max-w) {
+  .Footer-thanks,
+  .Footer-twitter { font-size: 13px }
+  .Footer-thanks { padding-left: 20px }
+  .Footer-twitter { padding-right: 20px }
+}

@@ -2,6 +2,11 @@
 layout:       default
 title:        Blog
 description:  Last published stories and thoughts around my world
+css:
+  name: blog
+  files:
+    - /css/elements/blog-nav.css
+    - /css/blog/post.css
 ---
 
 <div class="BlogIndex">
@@ -10,17 +15,17 @@ description:  Last published stories and thoughts around my world
   {% assign content = post.content %}
   
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-  <article class="BlogArticle {% if thecycle == 'even' %} BlogArticle--even {% endif %}">
+  <article class="BlogPost {% if thecycle == 'even' %} BlogPost--even {% endif %}">
     {% include article.html %}
   </article>
   {% endfor %}
   
   <div class="BlogPagination">
     {% if paginator.next_page %}
-      <button class="Button Button--blue ladda-button" data-href="{{paginator.next_page_path}}" data-color="blue" data-style="expand-left" data-size="s"><span class="Button-label ladda-label">older posts</span></button>
+      <a class="Button Button--blue Button--left" href="{{paginator.next_page_path}}">older posts</a>
     {% endif %}
     {% if paginator.previous_page %}
-      <button class="Button Button--blue ladda-button" data-href="{{paginator.previous_page_path}}" data-color="blue" data-style="expand-right" data-size="s"><span class="Button-label ladda-label">newer posts</span></button>
+      <a class="Button Button--blue Button--right" href="{{paginator.previous_page_path}}">newer posts</a>
     {% endif %}
   </div>
 </div>

@@ -1,0 +1,21 @@
+// Slide
+// --------------------------------------------------
+
+@import "../common/mixins";
+@import "../common/colors";
+@import "../common/vars";
+
+
+.Slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Slide-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 330px;
+  margin: -100px 0 0 -165px;
+  text-align: center;
+}

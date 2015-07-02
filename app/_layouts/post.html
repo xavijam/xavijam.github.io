@@ -4,21 +4,20 @@ single: true
 css:
   name: post 
   files:
-    - /css/post.css
+    - /css/elements/blog-nav.css
+    - /css/blog/post.css
 ---
 
-<div>
-  <article class="Post" role="article">
+<div class="BlogMain">
+  <article class="BlogPost" role="article">
     {% include article.html %}
-    <footer class="Post-footer">
-      <p class="Post-meta">
-        {% if page.previous.url %}
-          <button class="Button Button--blue ladda-button" data-href="{{page.previous.url}}" data-color="blue" data-style="expand-right" data-size="s"><span class="ladda-label">&laquo; prev post</span></button>
-        {% endif %}
-        {% if page.next.url %}
-          <button class="Button Button--blue ladda-button" data-href="{{page.next.url}}" data-color="blue" data-style="expand-left" data-size="s"><span class="ladda-label">next post &raquo;</span></button>
-        {% endif %}
-      </p>
-    </footer>
   </article>
+  <div class="BlogPagination">
+    {% if page.previous.url %}
+      <a class="Button Button--blue Button--left" href="{{page.previous.url}}">prev post</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="Button Button--blue Button--right" href="{{page.next.url}}">next post</a>
+    {% endif %}
+  </div>
 </div>

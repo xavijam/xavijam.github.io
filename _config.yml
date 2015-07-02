@@ -13,7 +13,7 @@ gems:
 #  Website                #
 # ----------------------- #
 name: xavijam
-title: UI developer · xavijam
+title: xavijam
 description: >
   Because environment and technology can live together, working
   as UI developer at CartoDB.
@@ -22,6 +22,7 @@ keywords: >
   computer,science,vizzuality,maps,biodiversity,front-end,html5,
   frontend,informatics,developer,CartoDB,maps,Leaflet,javascript
 thumbnail: '/img/thumbnail.jpg'
+subscribe_rss: /atom.xml
 google_analytics: UA-6602253-10
 
 # ----------------------- #
@@ -41,7 +42,7 @@ future: false
 show_drafts: false
 paginate: 4
 paginate_path: "blog/page/:num"
-permalink: blog/:title/
+permalink: blog/:year/:month/:day/:title/
 
 # ----------------------- #
 #  Markdown               #
