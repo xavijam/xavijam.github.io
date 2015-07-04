@@ -11,6 +11,8 @@
 - [ ] Review CSS styles
 - [ ] New blog post about new web
 - [ ] New blog post about Vizzuality <> CartoDB
+- [ ] New blog post about Antarctica datasets
+- [ ] New blog post about Canary Islands in Spain
 - [ ] Old browsers page
 
 
