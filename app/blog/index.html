@@ -1,0 +1,31 @@
+---
+layout:       default
+title:        Blog
+description:  Last published stories and thoughts around my world
+css:
+  name: blog
+  files:
+    - /css/elements/blog-nav.css
+    - /css/blog/post.css
+---
+
+<div class="BlogIndex">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+  
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  <article class="BlogPost {% if thecycle == 'even' %} BlogPost--even {% endif %}">
+    {% include article.html %}
+  </article>
+  {% endfor %}
+  
+  <div class="BlogPagination">
+    {% if paginator.next_page %}
+      <a class="Button Button--blue Button--left" href="{{paginator.next_page_path}}">older posts</a>
+    {% endif %}
+    {% if paginator.previous_page %}
+      <a class="Button Button--blue Button--right" href="{{paginator.previous_page_path}}">newer posts</a>
+    {% endif %}
+  </div>
+</div>

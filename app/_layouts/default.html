@@ -1,0 +1,15 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+<body>
+  {% include header.html %}
+  
+  <div id="main" class="Main">
+    <div id="content" class="MainContent">
+      {{ content | expand_urls: root_url }}
+    </div>
+  </div>
+  
+  {% include footer.html %}  
+  {% include shared/_ganalytics.html %}
+</body>
+</html>

@@ -1,0 +1,56 @@
+// Logo
+// --------------------------------------------
+
+@import "../common/mixins";
+
+.Logo { display: inline-block }
+.Logo-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  @include border-radius(42px);
+  background: transparent;
+}
+.Logo-icon:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  width: 24px;
+  height: 38px;
+  background: #999;
+  z-index: 0;
+}
+.Logo-iconExt {
+  position: relative;
+  font-size: 43px;
+  @include border-radius(42px);
+  color: #DDD;
+  text-align: center;
+}
+.Logo-iconInt {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -6px;
+  font-size: 28px;
+  color: #F0F0F0;
+}
+.Logo-link { text-decoration: none!important }
+.Logo-text {
+  font-family: 'Lato', Arial;
+  font-size: 20px;
+  font-weight: 400;
+  color: #76766B;
+}
+.Logo:hover {
+  cursor: pointer;
+  
+  .Logo-text {
+    color: #666;
+    cursor: pointer;
+  }
+}

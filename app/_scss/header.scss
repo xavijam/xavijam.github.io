@@ -1,0 +1,30 @@
+// Header
+// --------------------------------------------------
+
+@import "common/vars";
+
+.Header {
+  max-width: $max-w;
+  margin: 0 auto;
+  padding: 0 10px;
+  height: 100px;
+}
+
+.Header .Logo {
+  float: left;
+  margin-top: 30px;
+}
+.Header .NavList { float: right }
+
+
+@media screen and (max-width: $max-w) {
+  .Header {
+    height:120px;
+    padding:20px 0;
+  }
+  .Header .Logo {
+    width: 54%;
+    margin: 26px 0 0;
+    text-align: right;  
+  }
+}

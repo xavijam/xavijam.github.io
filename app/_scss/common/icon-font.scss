@@ -1,0 +1,44 @@
+// Icon font style
+// --------------------------------------------------
+
+@import "mixins";
+
+@include font-face('penguicon', 'penguicon', 'penguicon', 'serif');
+
+.iconFont {
+  display: inline-block;
+  font-family: 'penguIcon';
+  font-weight: 400;
+}
+
+.iconFont-Twitter:before {
+	content: "\E001";
+}
+
+.iconFont-Facebook:before {
+	content: "\E002";
+}
+
+.iconFont-Dropbox:before {
+	content: "\E003";
+}
+
+.iconFont-Shape:before {
+	content: "\E004";
+}
+
+.iconFont-Belly:before {
+	content: "\E005";
+}
+
+.iconFont-Hamburguer:before {
+	content: "\E006";
+}
+
+.iconFont-Heart--empty:before {
+	content: "\E007";
+}
+
+.iconFont-Linkedin:before {
+	content: "\E008";
+}

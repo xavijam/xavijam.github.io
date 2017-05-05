@@ -1,1 +1,0 @@
-[I love Gentoo penguins](http://xavij.am/ "I love Gentoo penguins") with [Jekyll](http://jekyllrb.com/ "Jekyll")

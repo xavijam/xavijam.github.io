@@ -1,0 +1,67 @@
+// Navigation list
+// --------------------------------------------------
+
+@import "../common/colors";
+@import "../common/vars";
+
+.NavList {}
+.NavList-item {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  padding: 36px 0 0 0;
+  line-height: 30px;
+  color: $cTypography-secondary;
+  font-size: 16px;
+  font-weight: 400;
+
+  &:first-child { margin-left: 0 }
+    
+  &:hover {
+    padding: 34px 0 0 0;
+    border-top: 2px solid #555;
+    color: $cTypography-linkSelected;
+    text-decoration: none;
+  }
+}
+
+.NavList-item.is--selected {
+  padding: 34px 0 0 0;
+  border-top: 2px solid #555;
+  border-bottom: 0;
+  color: $cTypography-linkSelected;
+
+  &:hover {
+    cursor: default;
+    text-decoration: none;
+  }
+}
+
+
+
+@media screen and (max-width: $max-w) {
+  .NavList {
+    width: 44%;
+    text-align: left;
+    border-left: 1px solid #DEDEDE;
+  }
+  .NavList-item {
+    display: block;
+    padding: 0 0 0 15px;
+    margin: 0;
+    line-height: 24px;
+    font-size: 15px;
+
+    &:hover {
+      border-top: 0;
+      padding: 0 0 0 15px;
+      text-decoration: underline;
+    }
+  }
+  .NavList-item.is--selected {
+    padding: 0 0 0 15px;
+    text-decoration: underline;
+    border-top: 0;
+    
+    &:hover { text-decoration: underline }
+  }
+}

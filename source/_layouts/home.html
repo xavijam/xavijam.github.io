@@ -1,9 +1,0 @@
-{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
-{% include head.html %}
-  <body class="{{ page.body_class }}">
-    {{ content | expand_urls: root_url }}
-    {% javascript app.js %}
-    {% javascript home.js %}
-    {% include google_analytics.html %}
-  </body>
-</html>

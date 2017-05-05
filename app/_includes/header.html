@@ -1,0 +1,19 @@
+<header class="Header">
+  <h1 class="Logo">
+    <a href="/" class="Logo-link">
+      <div class="Logo-icon">
+        <span class="iconFont iconFont-Shape Logo-iconExt">
+          <i class="iconFont iconFont-Belly Logo-iconInt"></i>
+        </span>
+      </div>
+      <label class="Logo-text">xavij.am</label>
+    </a>
+  </h1>
+
+  <nav class="NavList">
+    <a class="NavList-item {% if page.url contains 'projects/' %} is--selected {% endif %}" href="/#/projects/">projects</a>
+    <a class="NavList-item {% if page.url contains 'blog/' %} is--selected {% endif %}" href="/blog">blog</a>
+    <a class="NavList-item {% if page.url contains 'about/' %} is--selected {% endif %}" href="/#/about/">about</a>
+    <a class="NavList-item" href="mailto:{{ site.email }}">contact</a>
+  </nav>
+</header>

@@ -1,0 +1,23 @@
+---
+layout: default
+single: true
+css:
+  name: post 
+  files:
+    - /css/elements/blog-nav.css
+    - /css/blog/post.css
+---
+
+<div class="BlogMain">
+  <article class="BlogPost" role="article">
+    {% include article.html %}
+  </article>
+  <div class="BlogPagination">
+    {% if page.previous.url %}
+      <a class="Button Button--blue Button--left" href="{{page.previous.url}}">prev post</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="Button Button--blue Button--right" href="{{page.next.url}}">next post</a>
+    {% endif %}
+  </div>
+</div>
