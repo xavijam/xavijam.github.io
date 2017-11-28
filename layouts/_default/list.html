@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ range (.Paginator 4).Pages }}
+    <article>
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <time class="timeago" datetime='{{ .Date.Format "2006-01-02T15:04:05-07:00" }}'>{{ .Date }}</time>
+      {{ .Content }}
+    </article>
+  {{ end }}
+
+  {{ if .Paginator.HasPrev }}
+	   <a href="{{ .Paginator.Prev.URL }}">P</a>
+	{{ end }}
+
+	{{ if .Paginator.HasNext }}
+	   <a href="{{ .Paginator.Next.URL }}">N</a>
+	{{ end }}
+{{ end }}

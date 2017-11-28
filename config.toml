@@ -1,0 +1,77 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "xavijam"
+author = "Javier Álvarez Medina"
+
+[params]
+[params.social]
+twitter = "xavijam"
+github = "xavijam"
+facebook = "jamedina"
+linkedin = "javieralvarezmedina"
+email = "xavijam@gmail.com"
+
+GoogleAnalytics = "UA-6602253-10"
+
+enableemoji = true
+
+disableKinds = ["RSS"]
+enableRobotsTXT = true
+disableAliases = false
+
+[Languages]
+[Languages.en]
+languageName = "English"
+weight = 1
+[Languages.en.menu]
+  [[Languages.en.menu.main]]
+  identifier = "projects"
+  name       = "Projects"
+  url        = "/#/projects/"
+  weight     = 1
+
+  [[Languages.en.menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/blog/"
+  weight     = 2
+
+  [[Languages.en.menu.main]]
+  identifier = "about"
+  name       = "About"
+  url        = "/about/"
+  weight     = 3
+
+  [[Languages.en.menu.main]]
+  identifier = "contact"
+  name       = "Contact"
+  url        = "mailto:xavijam@gmail.com"
+  weight     = 4
+
+[Languages.es]
+languageName = "Español"
+weight = 2
+[Languages.es.menu]
+  [[Languages.es.menu.main]]
+  identifier = "projects"
+  name       = "Proyectos"
+  url        = "/es/#/proyectos/"
+  weight     = 1
+
+  [[Languages.es.menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/es/blog/"
+  weight     = 2
+
+  [[Languages.es.menu.main]]
+  identifier = "sobre-mi"
+  name       = "Sobre mí"
+  url        = "/es/sobre-mi/"
+  weight     = 3
+
+  [[Languages.es.menu.main]]
+  identifier = "contacto"
+  name       = "Contacto"
+  url        = "mailto:xavijam@gmail.com"
+  weight     = 4

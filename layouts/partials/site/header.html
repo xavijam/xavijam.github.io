@@ -1,0 +1,14 @@
+<header class="site-header" role="banner">
+  <h1><a href="/" class="logo"><i class="icon logo"></i>{{ .Site.Title }}</a></h1>
+
+  <nav class="sidebar-nav">
+  	{{ $currentPage := . }}
+  	{{ range .Site.Menus.main.ByWeight }}
+  		<a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}" href="{{.URL}}">{{ .Name }}</a>
+  	{{ end }}
+
+  	{{ range .Translations }}
+      <a href="{{ .Permalink }}">{{ .Lang }}</a>
+    {{ end}}
+	</nav>
+</header>
