@@ -1,23 +1,24 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "xavijam"
-author = "Javier Álvarez Medina"
+title = "Javier Álvarez (Medina)"
+
+googleAnalytics = "UA-6602253-10"
+enableemoji = true
+disableKinds = ["RSS"]
+enableRobotsTXT = true
+disableAliases = false
 
 [params]
+author = "Javier Álvarez Medina"
+siteURL = "xavijam.github.io"
+description = "Javier Álvarez Medina personal webpage. Front-end developer."
+keywords = "jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,computer,science,vizzuality,maps,biodiversity,front-end,html5,informatics,developer,CARTO,maps,Leaflet,Google Maps"
 [params.social]
 twitter = "xavijam"
 github = "xavijam"
 facebook = "jamedina"
 linkedin = "javieralvarezmedina"
 email = "xavijam@gmail.com"
-
-GoogleAnalytics = "UA-6602253-10"
-
-enableemoji = true
-
-disableKinds = ["RSS"]
-enableRobotsTXT = true
-disableAliases = false
 
 [Languages]
 [Languages.en]
@@ -51,6 +52,7 @@ weight = 1
 [Languages.es]
 languageName = "Español"
 weight = 2
+description = "Javier Álvarez Medina página web personal. Desarrollador Frontend."
 [Languages.es.menu]
   [[Languages.es.menu.main]]
   identifier = "projects"

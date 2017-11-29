@@ -1,6 +1,36 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
 
-{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+<meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{.Description | safeHTML}}{{end}}">
+
+<meta name="keywords" content="{{ with .Keywords }}{{ . }}{{ else }}{{ .Site.Params.keywords }}{{ end }}" />
+<meta name="distribution" content="Global">
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="detail" content="{{ .Site.Params.author }} personal webpage">
+
+<meta name="DC.title" content="{{ .Site.Params.author }}">
+<meta name="geo.region" content="ES-M">
+<meta name="geo.placename" content="Madrid">
+<meta name="geo.position" content="40.4166909, -3.7003454">
+<meta name="ICBM" content="40.4166909, -3.7003454">
+
+<meta property="og:title" content="{{ .Title }}"/>
+<meta property="og:description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{.Description | safeHTML}}{{end}}"/>
+<meta property="og:type" content="Personal webpage"/>
+<meta property="og:url" content="{{ .Site.Params.siteURL }}" />
+<meta property="og:image" content="/images/thumbnail.png"/>
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ .Site.Params.social.twitter }}">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{.Description | safeHTML}}{{end}}">
+<meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}">
+<meta name="twitter:image:src" content="/images/thumbnail.png">
+<meta name="twitter:domain" content="{{ .Site.Params.siteURL }}">
+
+<link href="/favicon.ico" rel="icon">
+
 {{ .Hugo.Generator }}

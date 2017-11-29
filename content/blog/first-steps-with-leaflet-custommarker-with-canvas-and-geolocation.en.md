@@ -1,6 +1,8 @@
 ---
 title: "First steps with Leaflet: CustomMarker with canvas and geolocation"
 date: 2011-06-11T10:47:00
+description: "First steps with Leaflet and geolocation API"
+keywords: leaflet, maps, canvas
 ---
 
 Several moths ago I wanted to create a working example using W3C geolocation and a custom marker (similar to there is in the iphone maps application) in Google Maps v3.

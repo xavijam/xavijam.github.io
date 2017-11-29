@@ -1,6 +1,8 @@
 ---
 title: "Después de algún tiempo, es momento de parar…"
 date: 2012-07-31T8:57:00
+description: "Después de varios años en Vizzuality, es momento de parar y ver que hemos conseguido hasta hoy"
+keywords: Vizzuality, CartoDB, trabajo, equipo, linea de tiempo, proyectos
 ---
 
 Empecé en [Vizzuality](http://vizzuality.com) hace años y después de algunos proyectos terminados, tras varios amigos hechos y muchas horas de trabajo, es momento de parar y mirar atrás para comprender que hemos conseguido.

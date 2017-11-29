@@ -1,6 +1,8 @@
 ---
 title: "Five years at Vizzuality"
 date: 2014-01-27T09:00:00
+description: "After 5 years working at Vizzuality, it is time to recap"
+keywords: vizzuality, jobs, five, CartoDB, team, development
 ---
 
 There is no a better moment to start again with my blog, celebrating my fifth anniversary at Vizzuality. After my first years in this wadusfera I can only say thanks to the team and the people who have worked here.

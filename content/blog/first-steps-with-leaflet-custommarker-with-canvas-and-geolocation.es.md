@@ -1,6 +1,8 @@
 ---
 title: "Primeros pasos con Leaflet, Canvas y geolocalización"
 date: 2011-06-11T10:47:00
+description: "Primeros pasos con Leaflet, Canvas y geolocalización"
+keywords: leaflet, mapas, canvas
 ---
 
 Hace meses que quería create un ejemplo usando la W3C geolocation API con un custom marker (algo similar a lo que hay para la aplicación de iPhone) en GMaps v3.

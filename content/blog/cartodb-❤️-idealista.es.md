@@ -1,6 +1,8 @@
 ---
 title: "CartoDB ♥ Idealista"
 date: 2012-08-16T9:30:00
+description: "Como Idealista podría mejorar sus mapas con CartoDB"
+keywords: mapas, Idealista, CartoDB, Leaflet
 ---
 
 Todo el mundo ha buscado casa en algún momento de sus vidas, y no es tarea fácil. Hace meses llegó mi turno and empecé en una de las páginas de búsqueda más importantes de España llamada [Idealista](http://www.idealista.com). Realmente sencillo y fácil de encontrar una casa que se ajuste a tus necesidades. Pero (siempre hay uno) me dí cuenta que no usan ningún mapa interactivo para representar sus distritos o vecindarios, de hecho, usan mapas de imágenes.

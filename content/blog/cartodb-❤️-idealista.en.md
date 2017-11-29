@@ -1,6 +1,8 @@
 ---
 title: "CartoDB ♥ Idealista"
 date: 2012-08-16T9:30:00
+description: "Como Idealista podría mejorar sus mapas con CartoDB"
+keywords: maps, Idealista, CartoDB, Leaflet
 ---
 
 Everybody has looked for a house at some point in their lives, and it's not an easy job. Some months ago was my turn, and I dove into one of the most important real estate portals in Spain called

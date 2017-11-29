@@ -1,6 +1,7 @@
 ---
-title: "I'll Be at Denver Talking About Maps Plus HTML5"
+title: "Estaré en el FOSS4G de Denver hablando de HTML5 y mapas"
 date: 2011-09-12T10:42:00
+keywords: FOSS4G, mapas, HTML5, CartoDB
 ---
 
 Es muy posible que esté en el FOSS4G de Denver hablando sobre HTML5 para aplicaciones geospaciales en la web.
