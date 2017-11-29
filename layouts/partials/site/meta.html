@@ -32,5 +32,9 @@
 <meta name="twitter:domain" content="{{ .Site.Params.siteURL }}">
 
 <link href="/favicon.ico" rel="icon">
+{{ range .Translations }}
+  <link rel=”alternate” hreflang=”{{ .Lang }}” href=”{{ .Permalink }}” />
+{{ end }}
+
 
 {{ .Hugo.Generator }}
