@@ -89,7 +89,7 @@ gulp.task('js', () => {
 });
 
 gulp.task('fonts', () => {
-  return gulp.src('src/fonts/**/*.{woff,woff2}')
+  return gulp.src('src/fonts/**/*.{woff,woff2,ttf}')
     .pipe(gulp.dest('static/fonts'));
 });
 
