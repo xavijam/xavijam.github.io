@@ -1,2 +1,2 @@
 [home_desc]
-other = "Finalmente le estoy dando una vuelta a mi web. Así que, mientras tanto, puedes visitar mi {{ .Blog }}. O escribirme un {{ .Email }} o un mesaje através de las redes de aquí abajo:"
+other = "Finalmente le estoy dando una vuelta a mi web. Así que, mientras tanto, puedes visitar mi {{ .Blog }}. O escribirme un {{ .Email }} o un mensaje através de las redes de aquí abajo:"
