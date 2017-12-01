@@ -52,7 +52,7 @@ weight = 1
 [Languages.es]
 languageName = "Español"
 weight = 2
-description = "Javier Álvarez Medina página web personal. Desarrollador Frontend."
+description = "Javier Álvarez Medina página web personal."
 [Languages.es.menu]
   [[Languages.es.menu.main]]
   identifier = "projects"

@@ -1,6 +1,28 @@
 {{ define "header" }}&nbsp;{{ end }}
 {{ define "main" }}
-  hola hola
-  <i class="fa fa-plane"></i>
+	{{- $blogURL := (index .Site.Menus.main 1).URL -}}
+	{{- $blogLink := ( printf "<a href='%s'>blog</a>" $blogURL) -}}
+	{{- $cartoLink := "<a href='http://carto.com'>CARTO</a>" }}
+  <p>{{ i18n "home_desc" (dict "Carto" $cartoLink "Blog" $blogLink ) | safeHTML  }}</p>
+  <ul>
+  	<li>
+  		<a href="http://twitter.com/@{{ .Site.Params.social.twitter }}">
+  			<i class="fa fa-twitter"></i>
+  			Twitter
+  		</a>
+  	</li>
+  	<li>
+  		<a href="http://github.com/{{ .Site.Params.social.github }}">
+  			<i class="fa fa-github"></i>
+  			GitHub
+  		</a>
+  	</li>
+  	<li>
+  		<a href="http://linkedin.com/in/{{ .Site.Params.social.linkedin }}">
+  			<i class="fa fa-linkedin"></i>
+  			Linkedin
+  		</a>
+  	</li>
+  </ul>
 {{ end }}
 {{ define "footer" }}&nbsp;{{ end }}

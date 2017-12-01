@@ -1,2 +1,2 @@
-[head_title]
-other = "Multilenguaje"
+[home_desc]
+other = "Después de 9 años en {{ .Carto }} necesito algún tiempo para reciclarme y pensar que hacer en el futuro. Mientras tanto escribo tonterías en mi {{ .Blog }} o puedes contactarme en alguno de estos los sitios de aquí abajo."
