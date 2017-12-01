@@ -1,5 +1,5 @@
 <header class="site-header" role="banner">
-  <h1><a href="/" class="logo"><i class="icon logo"></i>{{ .Site.Title }}</a></h1>
+  {{ partial "site/logo.html" . }}
 
   <nav class="sidebar-nav">
   	{{ $currentPage := . }}

@@ -1,9 +1,13 @@
 {{ define "header" }}&nbsp;{{ end }}
 {{ define "main" }}
 	{{- $blogURL := (index .Site.Menus.main 1).URL -}}
+	{{- $emailLInk := ( printf "<a href='mailto:%s'>email</a>" .Site.Params.social.email ) -}}
 	{{- $blogLink := ( printf "<a href='%s'>blog</a>" $blogURL) -}}
 	{{- $cartoLink := "<a href='http://carto.com'>CARTO</a>" }}
-  <p>{{ i18n "home_desc" (dict "Carto" $cartoLink "Blog" $blogLink ) | safeHTML  }}</p>
+
+	{{ partial "site/logo.html" . }}
+
+  <p>{{ i18n "home_desc" (dict "Email" $emailLInk "Blog" $blogLink ) | safeHTML  }}</p>
   <ul>
   	<li>
   		<a href="http://twitter.com/@{{ .Site.Params.social.twitter }}">

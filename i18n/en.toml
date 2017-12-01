@@ -1,2 +1,2 @@
 [home_desc]
-other = "After 9 years at {{ .Carto }} I need to spend some time on recycling myself and think about my future. In the meantime I'm writting some stupid stuff in my {{ .Blog }} or you can contact me through any of the social places below."
+other = "I’m (really) still developing my new website. In the meantime you can visit my {{ .Blog }}. Or contact me via {{ .Email }} or through these social networks."
