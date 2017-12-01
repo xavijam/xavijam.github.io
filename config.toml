@@ -4,7 +4,6 @@ title = "Javier Álvarez (Medina)"
 
 googleAnalytics = "UA-6602253-10"
 enableemoji = true
-disableKinds = ["RSS"]
 enableRobotsTXT = true
 disableAliases = false
 
