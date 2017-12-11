@@ -13,7 +13,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 const hugoSpawn = isProduction ? './bin/hugo' : 'hugo';
 
 const onError = (err) => {
-    console.log(err)
+  console.log(err)
 }
 
 // --
@@ -31,7 +31,7 @@ gulp.task('server', ['build'], () => {
 });
 
 gulp.task('build', () => {
-  runSequence(['sass', 'js', 'fonts', 'images', 'hugo', 'html'])
+  runSequence(['sass', 'js', 'fonts', 'images'], 'hugo', 'html')
 });
 
 gulp.task('build-preview', () => {
