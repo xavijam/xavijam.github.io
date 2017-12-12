@@ -1,14 +1,16 @@
-<header class="site-header" role="banner">
+<header role="banner">
   {{ partial "site/logo.html" . }}
 
-  <nav class="sidebar-nav">
+  <nav>
   	{{ $currentPage := . }}
   	{{ range .Site.Menus.main.ByWeight }}
-  		<a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}" href="{{.URL}}">{{ .Name }}</a>
+  		<a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} is-selected {{end}}" href="{{.URL}}">{{ .Name }}</a>
   	{{ end }}
-
   	{{ range .Translations }}
-      <a href="{{ .Permalink }}">{{ .Lang }}</a>
-    {{ end }}
+	    <a class="flag" href="{{ .Permalink }}">
+	    	{{- $svgPartial := ( printf "svg/%s.svg" .Lang ) -}}
+	    	{{ partial $svgPartial . }}
+	    </a>
+	  {{ end }}
 	</nav>
 </header>

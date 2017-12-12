@@ -1,6 +1,6 @@
 {{ define "header" }}&nbsp;{{ end }}
 {{ define "main" }}
-	{{- $blogURL := (index .Site.Menus.main 1).URL -}}
+	{{- $blogURL := (index .Site.Menus.main 0).URL -}}
 	{{- $emailLInk := ( printf "<a href='mailto:%s'>email</a>" .Site.Params.social.email ) -}}
 	{{- $blogLink := ( printf "<a href='%s'>blog</a>" $blogURL) -}}
 	{{- $cartoLink := "<a href='http://carto.com'>CARTO</a>" }}

@@ -1,2 +1,8 @@
 [home_desc]
 other = "I’m (really) still developing my new website. In the meantime you can visit my {{ .Blog }}. Or contact me via {{ .Email }} or through these social networks."
+[footer]
+other = "Proudly created with {{ .Hugo }}"
+[next]
+other = "next page"
+[prev]
+other = "previous page"

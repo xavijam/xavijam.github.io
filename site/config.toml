@@ -25,28 +25,22 @@ languageName = "English"
 weight = 1
 [Languages.en.menu]
   [[Languages.en.menu.main]]
-  identifier = "projects"
-  name       = "Projects"
-  url        = "/#/projects/"
+  identifier = "blog"
+  name       = "blog"
+  url        = "/blog/"
   weight     = 1
 
   [[Languages.en.menu.main]]
-  identifier = "blog"
-  name       = "Blog"
-  url        = "/blog/"
+  identifier = "me"
+  name       = "me"
+  url        = "/"
   weight     = 2
 
   [[Languages.en.menu.main]]
-  identifier = "about"
-  name       = "About"
-  url        = "/about/"
-  weight     = 3
-
-  [[Languages.en.menu.main]]
   identifier = "contact"
-  name       = "Contact"
+  name       = "contact"
   url        = "mailto:xavijam@gmail.com"
-  weight     = 4
+  weight     = 3
 
 [Languages.es]
 languageName = "Español"
@@ -54,25 +48,19 @@ weight = 2
 description = "Javier Álvarez Medina página web personal."
 [Languages.es.menu]
   [[Languages.es.menu.main]]
-  identifier = "projects"
-  name       = "Proyectos"
-  url        = "/es/#/proyectos/"
+  identifier = "blog"
+  name       = "blog"
+  url        = "/es/blog/"
   weight     = 1
 
   [[Languages.es.menu.main]]
-  identifier = "blog"
-  name       = "Blog"
-  url        = "/es/blog/"
+  identifier = "yo"
+  name       = "yo"
+  url        = "/es/"
   weight     = 2
 
   [[Languages.es.menu.main]]
-  identifier = "sobre-mi"
-  name       = "Sobre mí"
-  url        = "/es/sobre-mi/"
-  weight     = 3
-
-  [[Languages.es.menu.main]]
   identifier = "contacto"
-  name       = "Contacto"
+  name       = "contacto"
   url        = "mailto:xavijam@gmail.com"
-  weight     = 4
+  weight     = 3

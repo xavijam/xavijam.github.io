@@ -1,7 +1,8 @@
 <footer role="contentinfo">
-  <p>Proudly created with <a href="http://gohugo.io" target="_blank">Hugo</a></p>
+	{{- $hugoLink := "<a class='hugo' href='http://gohugo.io' target='_blank'>Hugo</a>" }}
+  <p>{{ i18n "footer" (dict "Hugo" $hugoLink) | safeHTML }} </p>
   <p>
-    <a href="http://twitter.com/{{ .Site.Params.social.twitter }}" target="_blank">
+    <a class="twitter" href="http://twitter.com/{{ .Site.Params.social.twitter }}" target="_blank">
       <i class="fa fa-twitter"></i>
       @{{ .Site.Params.social.twitter }}
     </a>

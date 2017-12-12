@@ -29,9 +29,7 @@ gulp.task("build", ["fonts", "sass", "js", "images"], (cb) => buildSite(cb, [], 
 gulp.task("build-preview", ["fonts", "sass", "js", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 gulp.task('sass', () => {
-  return gulp.src([
-    'src/sass/**/*.scss'
-  ])
+  return gulp.src('src/sass/app.scss')
   .pipe($.plumber({
     errorHandler: function (err) {
       console.log(err);
@@ -114,7 +112,7 @@ function buildSite(cb, options, environment = "development", afterTasks) {
     if (code === 0) {
       browserSync.reload();
       if (afterTasks) {
-        gulp.start(afterTasks,cb);
+        gulp.start(afterTasks, cb);
       } else {
         cb();
       }

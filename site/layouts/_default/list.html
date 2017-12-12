@@ -9,13 +9,15 @@
     </article>
   {{ end }}
 
-  {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL }}">P</a>
-	{{ end }}
+  <nav class="blog-navigation">
+    {{ if .Paginator.HasPrev }}
+      <button data-href="{{ .Paginator.Prev.URL }}" class="ladda-button"  data-color="blue" data-size="s" data-style="slide-up"><span class="ladda-label">{{ i18n "prev" }}</span></button>
+  	{{ end }}
 
-	{{ if .Paginator.HasNext }}
-    <a href="{{ .Paginator.Next.URL }}">N</a>
-	{{ end }}
+  	{{ if .Paginator.HasNext }}
+      <button data-href="{{ .Paginator.Next.URL }}" class="ladda-button" data-color="blue" data-size="s" data-style="slide-up"><span class="ladda-label">{{ i18n "next" }}</span></button>
+  	{{ end }}
+  </nav>
 {{ end }}
 
 {{ define "site/scripts" }}

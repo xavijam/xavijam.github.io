@@ -1,0 +1,19 @@
+@import 'vars';
+@import 'colors';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Oxygen', sans-serif;
+  -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
+  overflow-x: hidden;
+}
+
+a {
+  color: $main-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($main-color, 10%);
+    text-decoration: underline;
+  }
+}

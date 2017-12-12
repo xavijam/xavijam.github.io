@@ -1,6 +1,7 @@
-// Blog styles
 @import 'vars';
 @import 'colors';
+
+// Blog styles
 
 article {
   display: block;
@@ -12,7 +13,7 @@ article {
 }
 
 article .inner {
-  max-width: $blog-max-width;
+  max-width: $site-max-width;
   margin: 0 auto;
 }
 
@@ -34,4 +35,11 @@ article iframe {
 
 article em {
   font-size: 14px;
+}
+
+.blog-navigation {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 60px 0;
 }

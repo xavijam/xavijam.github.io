@@ -1,0 +1,25 @@
+@import 'vars';
+@import 'colors';
+
+// Hello footer
+
+
+footer {
+  margin: 30px auto 30px;
+  text-align: center;
+  color: $text-paragraph;
+}
+
+footer .hugo {
+  color: #FC3DB1;
+}
+
+footer .twitter {
+  $twitter-color: #00aced;
+  color: $twitter-color;
+
+  &:hover {
+    color: darken($twitter-color, 10%);
+    text-decoration: none;
+  }
+}
