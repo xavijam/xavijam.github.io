@@ -1,6 +1,6 @@
 # xavijam.github.io
 
-Personal website done with [Hugo](http://gohugo.io) and based on [Atlas Hugo template](https://github.com/indigotree/atlas).
+Personal website done with [Hugo](http://gohugo.io). Based on [Atlas Hugo template](https://github.com/indigotree/atlas) and [Victor Hugo](https://github.com/netlify/victor-hugo).
 
 ### Development
 
