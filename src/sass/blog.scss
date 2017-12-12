@@ -5,10 +5,16 @@
 
 article {
   display: block;
+  padding: 120px 0;
 
   &:nth-child(even) {
     background: #f9f9f9;
   }
+}
+
+article .inner {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 article time {
