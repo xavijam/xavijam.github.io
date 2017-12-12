@@ -36,16 +36,10 @@ weight = 1
   weight     = 1
 
   [[Languages.en.menu.main]]
-  identifier = "me"
-  name       = "me"
-  url        = "/"
-  weight     = 2
-
-  [[Languages.en.menu.main]]
   identifier = "contact"
   name       = "contact"
   url        = "mailto:xavijam@gmail.com"
-  weight     = 3
+  weight     = 2
 
 [Languages.es]
 languageName = "Español"
@@ -59,13 +53,7 @@ description = "Javier Álvarez Medina página web personal."
   weight     = 1
 
   [[Languages.es.menu.main]]
-  identifier = "yo"
-  name       = "yo"
-  url        = "/es/"
-  weight     = 2
-
-  [[Languages.es.menu.main]]
   identifier = "contacto"
   name       = "contacto"
   url        = "mailto:xavijam@gmail.com"
-  weight     = 3
+  weight     = 2

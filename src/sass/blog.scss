@@ -5,26 +5,20 @@
 
 article {
   display: block;
-  padding: 100px 20px;
 
   &:nth-child(even) {
     background: #f9f9f9;
   }
 }
 
-article .inner {
-  max-width: $site-max-width;
-  margin: 0 auto;
-}
-
-article h2 {
-  margin: 0;
-  color: $text-title;
-}
-
 article time {
   color: $text-annotation;
   font-style: italic;
+}
+
+article .share {
+  justify-content: flex-start;
+  margin-top: 5px;
 }
 
 article img,
@@ -36,20 +30,6 @@ article iframe {
 article em {
   font-size: 14px;
 }
-
-article .share {
-  display: flex;
-  align-items: center;
-  margin-top: 5px;
-}
-
-article .share > * {
-  margin: 0 10px 0 0;
-}
-
-article .share-twitter { color: $twitter-color; }
-article .share-facebook { color: $facebook-color; }
-article .share-linkedin { color: $linkedin-color; }
 
 article .tag {
   padding: 4px 10px;
