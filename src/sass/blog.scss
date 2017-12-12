@@ -37,6 +37,33 @@ article em {
   font-size: 14px;
 }
 
+article .share {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+article .share > * {
+  margin: 0 10px 0 0;
+}
+
+article .share-twitter { color: $twitter-color; }
+article .share-facebook { color: $facebook-color; }
+article .share-linkedin { color: $linkedin-color; }
+
+article .tag {
+  padding: 4px 10px;
+  color: #FFF;
+  font-size: 12px;
+  background: #CCC;
+  border-radius: 2px;
+
+  &:hover {
+    text-decoration: none;
+    background: #999;
+  }
+}
+
 .blog-navigation {
   display: flex;
   justify-content: center;

@@ -19,16 +19,25 @@
 
 <meta property="og:title" content="{{ .Title }}"/>
 <meta property="og:description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{.Description | safeHTML}}{{end}}"/>
-<meta property="og:type" content="Personal webpage"/>
+{{ if .IsPage }}
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+{{ else }}
+<meta property="og:type" content="website">
+{{ end }}
 <meta property="og:url" content="{{ .Site.Params.siteURL }}" />
-<meta property="og:image" content="/images/thumbnail.png"/>
+<meta property="og:site_name" content="{{ .Site.Title }}"/>
+<meta property="og:image" content="{{ if .Params.thumbnail }}{{ .Site.Params.siteURL }}{{ .Params.thumbnail }}{{ else }}{{ .Site.Params.siteURL }}{{ .Site.Params.thumbnail }}{{ end }}"/>
+{{ range .Params.tags }}
+  <meta property="og:tags" content="{{ . }}">
+{{ end }}
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@{{ .Site.Params.social.twitter }}">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{.Description | safeHTML}}{{end}}">
 <meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}">
-<meta name="twitter:image:src" content="/images/thumbnail.png">
+<meta name="twitter:image:src" content="{{ if .Params.thumbnail }}{{ .Site.Params.siteURL }}{{ .Params.thumbnail }}{{ else }}{{ .Site.Params.siteURL }}{{ .Site.Params.thumbnail }}{{ end }}">
 <meta name="twitter:domain" content="{{ .Site.Params.siteURL }}">
 
 <link href="/favicon.ico" rel="icon">
