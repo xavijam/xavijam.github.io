@@ -1,4 +1,7 @@
 /public
 /node_modules
 
+/site/content/blog/any-other-day.en.md
+/site/content/blog/any-other-day.es.md
+
 .DS_Store
