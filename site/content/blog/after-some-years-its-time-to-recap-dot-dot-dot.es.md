@@ -7,7 +7,7 @@ keywords: Vizzuality, CartoDB, trabajo, equipo, linea de tiempo, proyectos
 
 Empecé en [Vizzuality](http://vizzuality.com) hace años y después de algunos proyectos terminados, tras varios amigos hechos y muchas horas de trabajo, es momento de parar y mirar atrás para comprender que hemos conseguido.
 
-![vizzuality-timeline](images/posts/vizzuality-timeline/vizzuality-
+![vizzuality-timeline](/images/posts/vizzuality-timeline/vizzuality-
 timeline.jpg)
 
 Simplemente he <strike>seguido</strike> copiado la linea de tiempo de Facebook para visualizar alguno de los momentos más importantes de este grupo de amigos (todavía añadiendo días, ¡no está acabado!).

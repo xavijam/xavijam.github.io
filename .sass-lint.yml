@@ -3,6 +3,8 @@ options:
   merge-default-rules: true
 files:
   include: 'src/sass/**/*.scss'
+  ignore:
+    - 'src/sass/reset.scss'
 rules:
   bem-depth: 1
   brace-style: 0

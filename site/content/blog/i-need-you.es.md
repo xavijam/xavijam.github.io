@@ -19,4 +19,4 @@ No, no hay condiciones. Sin embargo yo sólo se hablar en español e inglés. Y 
 
 Esto no es un proceso de contratación o algo parecido, no habrá dinero (tiene que quedar claro), sólo quiero compartir algo que realmente me gusta y quiero hacerlo real. De hecho estoy pidiendo ayuda :smile: . Si quieres saber más, escríbeme a [xavijam@gmail.com](mailto:xavijam@gmail.com).
 
-If you find this post via twitter, please RT :). Thanks!
+Si encuentras este post via Twitter, por favor RT :). Gracias!

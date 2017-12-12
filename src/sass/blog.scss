@@ -1,0 +1,26 @@
+// Blog styles
+@import 'vars';
+
+article {
+  display: block;
+  padding: 100px 20px;
+
+  &:nth-child(even) {
+    background: #f9f9f9;
+  }
+}
+
+article .inner {
+  max-width: $blog-width;
+  margin: 0 auto;
+}
+
+article h2 {
+  margin: 0;
+}
+
+article img,
+article iframe {
+  width: 120%;
+  margin: 20px 0 20px -10%;
+}

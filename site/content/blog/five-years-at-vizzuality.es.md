@@ -7,7 +7,7 @@ keywords: vizzuality, trabajos, cinco, CartoDB, equipo, desarrollo
 
 No hay mejor momento para empezar de nuevo mi blog, celebrando mi quinto aniversario en Vizzuality. Después de mis primeros años en esta wadusfera sólo puedo decir gracias al equipo y a la gente con la que he trabajado aquí.
 
-![some-of-the-team](/assets/img/posts/five-years-vizzuality/ha.jpg)
+![some-of-the-team](/images/posts/five-years-vizzuality/ha.jpg)
 
 Podría decir cosas que hemos hecho (algunas que no puedo mencionar) de las cuales nos sentimos orgullosos. Muchos proyectos, con grandes empresas, cosas que importan. Pero esta aventura no ha terminado y estamos preparados para nuevas oportunidades, y este año va a ser especial.
 
