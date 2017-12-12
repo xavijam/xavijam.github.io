@@ -44,11 +44,9 @@
     "gulp-watch": "^4.3.11",
     "hugo-bin": "^0.13.0",
     "node-sass-tilde-importer": "^1.0.0",
-    "postcss-cssnext": "^2.7.0",
-    "postcss-import": "^10.0.0",
-    "url-loader": "^0.5.7",
     "run-sequence": "^2.0.0",
     "timeago.js": "^3.0.2",
+    "url-loader": "^0.5.7",
     "webpack": "3.6.0",
     "whatwg-fetch": "^1.0.0"
   },
