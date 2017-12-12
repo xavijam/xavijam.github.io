@@ -14,5 +14,5 @@ npm run server
 
 ### Release
 
-Any branch merged into `master` branch will trigger a production build thanks to [Travis](http://travis-ci.org).
+Any branch merged into `development` branch will trigger a production build thanks to [Travis](http://travis-ci.org).
 
