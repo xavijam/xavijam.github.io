@@ -32,7 +32,12 @@ gulp.task('sass', () => {
   return gulp.src([
     'src/sass/**/*.scss'
   ])
-  .pipe($.plumber({ errorHandler: (err) => { console.log(err); } }))
+  .pipe($.plumber({
+    errorHandler: function (err) {
+      console.log(err);
+      this.emit('end');
+    }
+  }))
   .pipe($.print())
   .pipe($.sassLint())
   .pipe($.sassLint.format())

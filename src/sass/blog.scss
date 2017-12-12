@@ -1,5 +1,6 @@
 // Blog styles
 @import 'vars';
+@import 'colors';
 
 article {
   display: block;
@@ -11,16 +12,26 @@ article {
 }
 
 article .inner {
-  max-width: $blog-width;
+  max-width: $blog-max-width;
   margin: 0 auto;
 }
 
 article h2 {
   margin: 0;
+  color: $text-title;
+}
+
+article time {
+  color: $text-annotation;
+  font-style: italic;
 }
 
 article img,
 article iframe {
   width: 120%;
   margin: 20px 0 20px -10%;
+}
+
+article em {
+  font-size: 14px;
 }

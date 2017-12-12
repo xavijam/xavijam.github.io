@@ -16,6 +16,9 @@
 	{{ if .Paginator.HasNext }}
     <a href="{{ .Paginator.Next.URL }}">N</a>
 	{{ end }}
+{{ end }}
 
+{{ define "site/scripts" }}
+  <script>var locale = "{{ .Lang }}";</script>
   <script src="/js/blog.js"></script>
 {{ end }}

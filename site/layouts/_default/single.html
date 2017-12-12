@@ -7,3 +7,8 @@
   	</div>
   </article>
 {{ end }}
+
+{{ define "site/scripts" }}
+	<script>var locale = "{{ .Lang }}";</script>
+  <script src="/js/blog.js"></script>
+{{ end }}
