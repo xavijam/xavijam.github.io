@@ -29,7 +29,7 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["fonts", "sass", "js", "images"], (cb) => buildSite(cb, [], ['html']));
+gulp.task("build", ["fonts", "sass", "js", "images"], (cb) => buildSite(cb, [], ['css-compress', 'html']));
 gulp.task("build-preview", ["fonts", "sass", "js", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 gulp.task('sass', () => {
@@ -49,6 +49,12 @@ gulp.task('sass', () => {
   .pipe($.size({ gzip: true, showFiles: true }))
   .pipe(gulp.dest('./public/css'))
   .pipe(browserSync.stream())
+});
+
+gulp.task('css-compress', () => {
+  return gulp.src('public/**/*.css')
+    .pipe($.if(isProduction, $.gzip({ append: true })))
+    .pipe(gulp.dest('public'));
 });
 
 // Compile Javascript
@@ -74,6 +80,7 @@ gulp.task('html', () => {
       removeComments: true,
       minifyJS: true
     }))
+    .pipe($.if(isProduction, $.gzip({ append: true })))
     .pipe(gulp.dest('public'));
 });
 
