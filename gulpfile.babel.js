@@ -7,9 +7,13 @@ import gutil from "gulp-util";
 import BrowserSync from "browser-sync";
 import watch from "gulp-watch";
 import webpack from "webpack";
-import webpackConfig from "./webpack.config";
+import webpackDevConfig from "./webpack.config";
+import webpackProdConfig from "./webpack.prod.config";
 import gulpLoadPlugins from 'gulp-load-plugins';
 import tildeImporter from 'node-sass-tilde-importer';
+
+const devConfig = Object.assign({}, webpackDevConfig);
+const prodConfig = Object.assign({}, webpackProdConfig);
 
 const $ = gulpLoadPlugins();
 const browserSync = BrowserSync.create();
@@ -25,7 +29,7 @@ gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
-gulp.task("build", ["fonts", "sass", "js", "images"], (cb) => buildSite(cb, [], "production", ['html']));
+gulp.task("build", ["fonts", "sass", "js", "images"], (cb) => buildSite(cb, [], ['html']));
 gulp.task("build-preview", ["fonts", "sass", "js", "images"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 gulp.task('sass', () => {
@@ -49,9 +53,9 @@ gulp.task('sass', () => {
 
 // Compile Javascript
 gulp.task("js", (cb) => {
-  const myConfig = Object.assign({}, webpackConfig);
+  var webpackConf = isProduction ? prodConfig : devConfig;
 
-  webpack(myConfig, (err, stats) => {
+  webpack(webpackConf, (err, stats) => {
     if (err) throw new gutil.PluginError("webpack", err);
     gutil.log("[webpack]", stats.toString({
       colors: true,
@@ -103,10 +107,8 @@ gulp.task("server", ["hugo", "fonts", "sass", "js", "images"], () => {
 });
 
 // Run hugo and build the site
-function buildSite(cb, options, environment = "development", afterTasks) {
+function buildSite(cb, options, afterTasks) {
   const args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
-
-  process.env.NODE_ENV = environment;
 
   return spawn(hugoBin, args, {stdio: "inherit"}).on("close", (code) => {
     if (code === 0) {
