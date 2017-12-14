@@ -65,7 +65,7 @@ Map.prototype._initMap = function () {
 
   d3.csv("/data/antarctica-stations.csv", function(e, stations) {
     stations.forEach(function(station) {
-      self.svg.append('circle')
+      self.g.append('circle')
         .attr("cx", function(d) {
           return self.projection([station.longitude, station.latitude])[0];
         })
