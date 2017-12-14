@@ -27,7 +27,8 @@ export default {
   context: path.join(__dirname, "src"),
   entry: {
     app: ["./js/app"],
-    blog: ["./js/blog"]
+    blog: ["./js/blog"],
+    404: ["./js/404"]
   },
   output: {
     path: path.join(__dirname, "public/js"),
