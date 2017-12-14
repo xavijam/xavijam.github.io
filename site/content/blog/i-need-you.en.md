@@ -3,6 +3,8 @@ title: "I need you!"
 date: 2012-04-27T08:57:00
 description: "I'm looking for a designer who wants to start a nice adventure in an open source project"
 keywords: libr.in, designer, collaboration, share
+categories: [personal]
+tags: [librin, project, Open Source]
 ---
 
 Run out of fuel. Those are the perfect words to explain what's going on with [libr.in](http://libr.in). Several months ago I started a great personal project, with lot of illusion, energies and hopes. Today this project is really advanced, but only in the programming part, almost with the 72% of the job done.

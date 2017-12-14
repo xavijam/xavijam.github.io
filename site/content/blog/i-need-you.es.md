@@ -3,6 +3,8 @@ title: "Te necesito"
 date: 2012-04-27T08:57:00
 description: "Estoy buscando un diseñador que quiera empezar una gran aventura en un proyecto open-source"
 keywords: libr.in, diseñador, colaboración, compartir
+categories: [personal]
+tags: [librin, proyecto, código abierto]
 ---
 
 No tengo suficiente gasolina. Estas son las palabras perfectas que describen que está pasando con [libr.in](http://libr.in). Varios meses atrás empecé un proyecto personal, con mucha ilusión, energías y esperanzas. Hoy es un proyecto que ha avanzado, pero sólo en la parte de programación, de hecho casi el 72% del trabajo está hecho.

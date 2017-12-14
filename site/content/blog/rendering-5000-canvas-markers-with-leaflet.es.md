@@ -3,6 +3,8 @@ title: "Renderizando 5000 markers en Canvas con Leaflet"
 date: 2011-06-19T9:30:00
 description: "Renderizando 5000 markers en Canvas con Leaflet, un buen experimento"
 keywords: leaflet, mapas, canvas
+categories: [experiment]
+tags: [Leaflet, Google Maps, Canvas]
 ---
 
 Gracias a [@jatorre](http://twitter.com/jatorre) descubrí una [gran presentación sobre como renderizar miles de puntos con Canvas](http://broady.github.com/Dotter/example.html) en GMaps (usando JS claro está), desarrollado por [@broady](http://twitter.com/broady), un excelente programador que trabajar para Google.

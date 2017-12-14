@@ -3,6 +3,9 @@ title: "After some years, it's time to recap..."
 date: 2012-07-31T8:57:00
 description: "After several years at Vizzuality, it is time to look back and explain what we have achieved"
 keywords: Vizzuality, CartoDB, work, team, timeline, projects
+categories: [work]
+tags: [Vizzuality, projects, CartoDB]
+thumbnail: /images/posts/vizzuality-timeline/vizzuality-timeline.jpg
 ---
 
 I started in [Vizzuality](http://vizzuality.com) several years ago and after some projects done, lot of friends made and many hours worked, it's time to recap and look back to understand what we have achieved.

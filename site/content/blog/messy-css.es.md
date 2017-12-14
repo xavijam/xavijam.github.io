@@ -3,6 +3,8 @@ title: "CSS desordenado"
 date: 2011-08-09T9:30:00
 description: "Una idea para intentar mejorar el orden de las propiedades del CSS"
 keywords: css, desordenado, presentación, slideshare, orden
+categories: [presentación]
+tags: [CSS, presentación]
 ---
 
 ¿Hay algo más molesto que un CSS desordenado? Probablemente sí, pero ¿por qué no evitarlo?.

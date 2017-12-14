@@ -3,6 +3,8 @@ title: "Rendering 5000 canvas markers with Leaflet"
 date: 2011-06-19T9:30:00
 description: "Rendering 5000 canvas markers with Leaflet and Canvas, a nice experiment"
 keywords: leaflet, maps, canvas
+categories: [experiment]
+tags: [Leaflet, Google Maps, Canvas]
 ---
 
 Thanks to [@jatorre](http://twitter.com/jatorre) I discovered a [great representation of thousand of markers using Canvas](http://broady.github.com/Dotter/example.html) image in Google Maps (using Javascript of course), developed by [@broady](http://twitter.com/broady), a great developer working at Google.

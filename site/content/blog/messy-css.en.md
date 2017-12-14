@@ -3,6 +3,8 @@ title: "Messy CSS"
 date: 2011-08-09T9:30:00
 description: "An idea for trying to improve the order of the CSS properties"
 keywords: css, messy, presentation, slideshare, order
+categories: [presentation]
+tags: [CSS, presentation]
 ---
 
 Is there anything more annoying than a messy CSS? Probably yes, but why not try to avoid that?.
