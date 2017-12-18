@@ -8,7 +8,7 @@ Taking for granted you have installed [node](http://nodejs.org) and you are usin
 
 ```
 brew install hugo
-npm install
+yarn install
 npm run server
 ```
 
