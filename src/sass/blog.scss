@@ -50,6 +50,12 @@ article .tag {
   }
 }
 
+blockquote {
+  margin: 0;
+  padding: 10px 30px;
+  background: rgba(#FDD242, 0.15);
+}
+
 .blog-navigation {
   display: flex;
   justify-content: center;
