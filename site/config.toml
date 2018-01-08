@@ -12,7 +12,7 @@ author = "Javier Álvarez Medina"
 siteURL = "http://xavijam.github.io"
 description = "Javier Álvarez Medina personal webpage."
 keywords = "jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,computer,science,vizzuality,maps,biodiversity,front-end,html5,informatics,developer,CARTO,maps,Leaflet,Google Maps"
-thumbnail = "images/thumbnail.png"
+thumbnail = "/images/thumbnail.png"
 [params.social]
 twitter = "xavijam"
 github = "xavijam"

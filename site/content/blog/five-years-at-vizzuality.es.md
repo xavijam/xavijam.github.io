@@ -5,7 +5,7 @@ description: "Después de 5 años aquí, es momento de mirar atrás"
 keywords: vizzuality, trabajos, cinco, CartoDB, equipo, desarrollo
 categories: [trabajo]
 tags: [vizzuality, CartoDB, team]
-thumbnail: images/posts/five-years-at-vizzuality/ha.jpg
+thumbnail: /images/posts/five-years-at-vizzuality/ha.jpg
 ---
 
 No hay mejor momento para empezar de nuevo mi blog, celebrando mi quinto aniversario en Vizzuality. Después de mis primeros años en esta wadusfera sólo puedo decir gracias al equipo y a la gente con la que he trabajado aquí.
