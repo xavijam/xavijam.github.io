@@ -3,7 +3,7 @@ module.exports = function(number, endex, total_sec) {
     ['ahora mismo', 'ahora mismo'],
     ['hace %s segundos', 'en %s segundos'],
     ['hace 1 menuto', 'en 1 minuto'],
-    ['hace %s menutos', 'en %s minutos'],
+    ['hace %s minutos', 'en %s minutos'],
     ['hace 1 hora', 'en 1 hora'],
     ['hace %s horas', 'en %s horas'],
     ['hace 1 día', 'en 1 día'],
