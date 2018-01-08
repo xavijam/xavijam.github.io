@@ -30,7 +30,7 @@ Coge tu moneda, métela y sigue jugando donde lo dejé. Me verás a tu lado vien
 </br></br>
 Gracias a todos, de verdad, gracias. No tengo ni tendré tiempo suficiente para daros las gracias a todos los que estáis y los que han pasado por aquí.
 </br></br>
-Pero gracias especiales a [@jsancha](http://twitter.com/jorgesancha), que ha movido cielo y tierra para encontrarme un nuevo rol los últimos meses para hacerme recuperar la ilusión. Y gracias a [@saleiva](http://twitter.com/saleiva) y [@jatorre](http://twitter.com/jatorre), porque ellos me enseñaron que era y como jugar a esto de los videojuegos arcade.
+Pero gracias especiales a [@jorgesancha](http://twitter.com/jorgesancha), que ha movido cielo y tierra para encontrarme un nuevo rol los últimos meses para hacerme recuperar la ilusión. Y gracias a [@saleiva](http://twitter.com/saleiva) y [@jatorre](http://twitter.com/jatorre), porque ellos me enseñaron que era y como jugar a esto de los videojuegos arcade.
 </br></br>
 Y ahora, en el futuro, intentaré encontrar esa moneda perdida en el suelo para empezar un nuevo videojuego, pero no será tan molón, quizás tendrá que ser un Tetris.
 </br></br>
