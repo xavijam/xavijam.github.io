@@ -1,6 +1,6 @@
 ---
 title: "👋🏽 CARTO"
-date: 2018-01-08T16:00:00
+date: 2018-01-08T17:00:00
 description: "After several years at Vizzuality, it is time to look back and explain what we have achieved"
 keywords: CARTO, work, team, projects, adventure
 categories: [work]
