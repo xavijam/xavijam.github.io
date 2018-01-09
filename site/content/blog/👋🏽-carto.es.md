@@ -35,4 +35,4 @@ Pero gracias especiales a [@jorgesancha](http://twitter.com/jorgesancha), que ha
 Y ahora, en el futuro, intentaré encontrar esa moneda perdida en el suelo para empezar un nuevo videojuego, pero no será tan molón, quizás tendrá que ser un Tetris.
 </br></br>
 
-_1 - Hay posts muy interesantes sobre los últimos años de CARTO de [Javi Santana](@javisantana) en su [blog](http://javisantana.com/blog.html)_
+_1 - Hay posts muy interesantes sobre los últimos años de CARTO de [Javi Santana](http://twitter.com/javisantana) en su [blog](http://javisantana.com/blog.html)_
