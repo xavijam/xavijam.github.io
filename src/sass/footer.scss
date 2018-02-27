@@ -3,11 +3,16 @@
 
 // Hello footer
 
-
 footer {
   margin: 30px auto 30px;
   text-align: center;
+  font-size: 13px;
   color: $text-paragraph;
+}
+
+footer p {
+  margin: 3px 0;
+  padding: 0;
 }
 
 footer .hugo {
