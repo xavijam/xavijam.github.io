@@ -1,6 +1,6 @@
 ---
 title: "Hola 7r"
-date: 2018-03-01T10:00:00
+date: 2018-03-01T09:00:00
 description: "New adventure, called 7r"
 keywords: 7r, work, team, projects, adventure, startup
 categories: [work]
