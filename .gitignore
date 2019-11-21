@@ -1,7 +1,3 @@
-/public
-/node_modules
-
-/site/content/blog/any-other-day.en.md
-/site/content/blog/any-other-day.es.md
-
+public
+resources
 .DS_Store
