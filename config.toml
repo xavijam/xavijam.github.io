@@ -1,4 +1,4 @@
-baseURL = "https://hoki.dev/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Javier Álvarez (Medina)"
 theme = "hoki"
