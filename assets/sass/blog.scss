@@ -28,13 +28,22 @@ article .share {
 }
 
 article img,
+article iframe,
+article svg {
+  margin: 20px 0 20px -10%;
+}
+article img,
 article iframe {
   width: 120%;
-  margin: 20px 0 20px -10%;
 }
 
 article em {
   font-size: 14px;
+}
+
+article p {
+  color: #333;
+  line-height: 1.8;
 }
 
 article .tag {

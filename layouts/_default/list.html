@@ -1,10 +1,21 @@
 {{ define "main" }}
+  {{ range (.Paginator 4).Pages }}
+    <article>
+      <div class="inner">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <time class="timeago" datetime='{{ .Date.Format "2006-01-02T15:04:05-07:00" }}'>{{ .Date }}</time>
+        {{ .Content }}
+      </div>
+    </article>
+  {{ end }}
 
-<h1>{{ .Title }}</h1>
-{{ range .Pages.ByPublishDate.Reverse }}
-<p>
-  <a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a>
-</p>
-{{ end }}
+  <nav class="blog-navigation">
+    {{ if .Paginator.HasPrev }}
+      <a href="{{ .Paginator.Prev.URL }}">Previous posts</a>
+  	{{ end }}
 
+  	{{ if .Paginator.HasNext }}
+      <a href="{{ .Paginator.Next.URL }}">Next posts</a>
+  	{{ end }}
+  </nav>
 {{ end }}

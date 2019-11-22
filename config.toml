@@ -1,4 +1,5 @@
 baseURL = "/"
+publishDir = "public/a"
 languageCode = "en-us"
 title = "Javier Álvarez (Medina)"
 theme = "hoki"

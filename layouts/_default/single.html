@@ -1,6 +1,28 @@
 {{ define "main" }}
+  <article>
+  	<div class="inner">
+	    <h2>{{ .Title }}</h2>
+	    <time class="timeago" datetime='{{ .Date.Format "2006-01-02T15:04:05-07:00" }}'>{{ .Date }}</time>
 
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+			<nav class="share">
+				<a href="https://twitter.com/intent/tweet?text={{ .Title | htmlEscape }}&url={{ .Site.Params.siteURL | htmlEscape}}{{ .Permalink | htmlEscape }}&via={{ .Site.Params.social.twitter }}" class="share-twitter"><i class="fa fa-twitter"></i></a>
+				<a href="http://www.facebook.com/sharer.php?u={{ .Site.Params.siteURL | htmlEscape}}{{ .Permalink | htmlEscape }}" class="share-facebook"><i class="fa fa-facebook"></i></a>
+		  </nav>
 
+	    {{ .Content }}
+
+			<nav class="tags">
+		  {{ with .Params.tags }}
+    		{{ range . }}
+		      <a class="tag" href="{{with $.Site.GetPage "taxonomyTerm" "tags" }}{{ .Permalink }}{{end}}{{.}}">{{.}}</a>
+		    {{ end }}
+			{{ end }}
+			</nav>
+  	</div>
+  </article>
+{{ end }}
+
+{{ define "site/scripts" }}
+	<script>var locale = "{{ .Lang }}";</script>
+  <script src="/js/blog.js"></script>
 {{ end }}
