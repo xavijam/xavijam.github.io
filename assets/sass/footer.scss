@@ -11,20 +11,26 @@ footer {
 }
 
 footer p {
+  display: block;
+  width: 100%;
+  text-align: center;
   margin: 3px 0;
   padding: 0;
 }
 
 footer .hugo {
-  color: #FC3DB1;
+  color: $hugo-color;
+
+  &:hover {
+    color: darken($hugo-color, 10%);
+  }
 }
 
 footer .twitter {
-  $twitter-color: #00aced;
   color: $twitter-color;
+  vertical-align: 20px;
 
   &:hover {
     color: darken($twitter-color, 10%);
-    text-decoration: none;
   }
 }

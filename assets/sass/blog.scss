@@ -42,7 +42,7 @@ article em {
 }
 
 article p {
-  color: #333;
+  color: $text-paragraph;
   line-height: 1.8;
 }
 
@@ -52,9 +52,9 @@ article .tag {
   font-size: 12px;
   background: #CCC;
   border-radius: 2px;
+  text-decoration: none;
 
   &:hover {
-    text-decoration: none;
     background: #999;
   }
 }
@@ -63,11 +63,4 @@ blockquote {
   margin: 0;
   padding: 10px 30px;
   background: rgba(#FDD242, 0.15);
-}
-
-.blog-navigation {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 60px 0;
 }

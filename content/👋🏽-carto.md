@@ -33,4 +33,4 @@ Thanks to all of you, really, thank you. There isn't (and there won't) enough ti
 </br></br>
 But a special thank you to [@jorgesancha](http://twitter.com/jorgesancha), who has moved land and sky to find me a new position last months. And thanks to [@saleiva](http://twitter.com/saleiva) and [@jatorre](http://twitter.com/jatorre), because you teach me how to play old nice video games, and now, in the future, I’ll try to find a lost coin in the floor to start a new video game, but not that awesome, maybe the Tetris.
 
-_1 - I encourage you to follow [Javi Santana](http://twitter.com/javisantana)'s [blog](http://javisantana.com/blog.html) to know more about last years in CARTO_
+_1 - I encourage you to follow [Javi Santana](http://twitter.com/javisantana)'s [blog](http://javisantana.com/blog.html) to know more about the last years in CARTO_

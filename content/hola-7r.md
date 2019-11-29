@@ -23,4 +23,4 @@ And I speak of challenge because there is no project where we do not have to wor
 But this adventure has just begun and we need people with whom we can share it. [We are looking for another developer](https://7r.ventures/job/hacker-in-residence/) with whom I would work side by side to carry out that first phase of the creation of the project.
 Great base salary + bonus when projects are finished, remote work if you want (although we like to work together some days in [Google Campus](https://goo.gl/NFGAeB)), no fancy or extravagant perks, transparency, great team environment.
 
-If you have doubts or curiosity, just ping me.
+If you have doubts or curiosity, just [ping me](mailto:{{< param social.email >}}).

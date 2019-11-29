@@ -1,0 +1,18 @@
+
+// Default link
+a {
+  display: inline-block;
+  vertical-align: bottom;
+  color: $main-color;
+  text-decoration: underline;
+
+  &.with-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  &:hover {
+    color: darken($main-color, 10%);
+    text-decoration: underline;
+  }
+}
