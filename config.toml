@@ -11,9 +11,9 @@ disableAliases = false
 
 [params]
 author = "Javier Álvarez Medina"
-siteURL = "http://xavijam.github.io"
-description = "Javier Álvarez Medina personal webpage."
-keywords = "jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,computer,science,vizzuality,maps,biodiversity,front-end,html5,informatics,developer,CARTO,maps,Leaflet,Google Maps"
+siteURL = "http://jmed.in/a"
+description = "After almost 9 years at [CARTO](https://carto.com)(+ Vizzuality), and discovering how companies are built at [7r](https://7r.ventures), it is time for looking my own adventure..."
+keywords = "jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,computer,science,tinybird,vizzuality,maps,front-end,carto"
 thumbnail = "/images/thumbnail.png"
 [params.social]
 twitter = "xavijam"

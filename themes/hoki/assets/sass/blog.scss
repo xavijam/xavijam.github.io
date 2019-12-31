@@ -1,11 +1,8 @@
-@import 'vars';
-@import 'colors';
-
 // Blog styles
 
 article {
   display: block;
-  padding: 120px 0;
+  padding: $unit * 15 0;
 
   &:nth-child(even) {
     background: #f9f9f9;
@@ -22,15 +19,10 @@ article time {
   font-style: italic;
 }
 
-article .share {
-  justify-content: flex-start;
-  margin-top: 5px;
-}
-
 article img,
 article iframe,
 article svg {
-  margin: 20px 0 20px -10%;
+  margin: $unit * 2 0 $unit * 2 -10%;
 }
 article img,
 article iframe {
@@ -38,7 +30,7 @@ article iframe {
 }
 
 article em {
-  font-size: 14px;
+  font-size: .9em;
 }
 
 article p {
@@ -47,20 +39,21 @@ article p {
 }
 
 article .tag {
-  padding: 4px 10px;
+  padding: $unit/2 $unit;
   color: #FFF;
-  font-size: 12px;
-  background: #CCC;
-  border-radius: 2px;
+  font-size: .8em;
+  background: $tag-color;
+  border-radius: $unit/4;
   text-decoration: none;
 
   &:hover {
-    background: #999;
+    background: darken($tag-color, 20%);
   }
 }
 
 blockquote {
-  margin: 0;
-  padding: 10px 30px;
-  background: rgba(#FDD242, 0.15);
+  margin-left: -$unit*3;
+  margin-right: -$unit*3;
+  padding: $unit $unit * 3;
+  background: rgba($blockquote, 0.15);
 }

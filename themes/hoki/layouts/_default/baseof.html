@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
+    <main id="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "scripts" . }}{{ partial "scripts.html"}}{{ end }}
+    {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+    {{ template "_internal/google_analytics.html" . }}
+  </body>
 </html>

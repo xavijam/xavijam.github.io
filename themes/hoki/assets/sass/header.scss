@@ -1,0 +1,38 @@
+$selected-color: darken($main-color, 20%);
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: $unit * 8 0;
+  background: $greyBkg;
+}
+header img {
+  border-radius: 100%;
+  border: 0.04em solid #DDD;
+  background: #FFF;
+}
+header h1 {
+  margin: $unit * 2 0;
+  font-size: 1.6em;
+  letter-spacing: -0.06em;
+}
+header p {
+  max-width: 420px;
+  margin: $unit/2 0;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: $text-paragraph;
+}
+header .social {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: $unit * 2;
+}
+header .social nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

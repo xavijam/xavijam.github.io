@@ -1,0 +1,11 @@
+
+// Default link
+a {
+  color: $main-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($main-color, 10%);
+    text-decoration: underline;
+  }
+}

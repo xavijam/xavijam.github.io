@@ -1,23 +1,15 @@
-@import 'vars';
-@import 'colors';
-
-// Hello footer
-
 footer {
-  margin: 30px auto 30px;
-  text-align: center;
-  font-size: 13px;
+  margin: $unit * 4 auto;
+  font-size: 0.85em;
   color: $text-paragraph;
 }
-
 footer p {
   display: block;
   width: 100%;
   text-align: center;
-  margin: 3px 0;
+  margin: $unit * 2 0 0;
   padding: 0;
 }
-
 footer .hugo {
   color: $hugo-color;
 
@@ -25,10 +17,10 @@ footer .hugo {
     color: darken($hugo-color, 10%);
   }
 }
-
 footer .twitter {
+  display: inline-block;
+  vertical-align: middle;
   color: $twitter-color;
-  vertical-align: 20px;
 
   &:hover {
     color: darken($twitter-color, 10%);
