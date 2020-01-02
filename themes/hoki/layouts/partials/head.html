@@ -5,8 +5,8 @@
 {{ $description := .Site.Params.description | markdownify | safeHTML }}
 {{if not .IsHome}}{{ $description = print .Description | safeHTML }}{{end}}
 
-{{ $thumbnail := print .Site.Params.siteURL .Params.thumbnail }}
-{{if not .Params.thumbnail}}{{ $thumbnail = print .Site.Params.siteURL .Site.Params.thumbnail }}{{end}}
+{{ $thumbnail := print .Params.thumbnail }}
+{{if not .Params.thumbnail}}{{ $thumbnail = print .Site.Params.thumbnail }}{{end}}
 
 <head>
   <meta charset="utf-8">
@@ -35,7 +35,7 @@
   {{ else }}
   <meta property="og:type" content="website">
   {{ end }}
-  <meta property="og:url" content="{{ .Site.Params.siteURL }}" />
+  <meta property="og:url" content="{{ .Site.Params.baseURL }}" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
   <meta property="og:image" content="{{ $thumbnail }}" />
   {{ range .Params.tags }}
@@ -48,10 +48,10 @@
   <meta name="twitter:description" content="{{ $description }}">
   <meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}">
   <meta name="twitter:image:src" content="{{ $thumbnail }}">
-  <meta name="twitter:domain" content="{{ .Site.Params.siteURL }}">
+  <meta name="twitter:domain" content="{{ .Site.Params.baseURL }}">
 
-  <link rel="stylesheet" href="{{ .Site.Params.siteURL }}{{ $style.Permalink }}">
-  <link href="{{ .Site.Params.siteURL }}/images/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <link href="favicon.ico" rel="icon">
 
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" title="{{ .Site.Title }}" type="application/rss+xml" rel="alternate">

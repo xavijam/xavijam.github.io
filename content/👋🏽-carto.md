@@ -5,16 +5,16 @@ description: "After several years at Vizzuality, it is time to look back and exp
 keywords: CARTO, work, team, projects, adventure
 categories: [work]
 tags: [CARTO]
-thumbnail: /images/posts/bye-carto/bye-carto-1.jpg
+thumbnail: /a/images/posts/bye-carto/bye-carto-1.jpg
 ---
 
 I have really abandoned my blog, actually I didn't comment the big change in CARTO since 2014 or the branding change to CARTO in 2016<sup>1</sup>. Whatever, there will be time to explain them, I'll try to write from time to time this 2018.
 
-![CARTO launch](/images/posts/bye-carto/bye-carto-1.jpg)
+![CARTO launch](/a/images/posts/bye-carto/bye-carto-1.jpg)
 
 Today I wanted to mention something less interesting. One week ago I left CARTO, and I have to admit it was the toughest decision I've ever taken. Because part of my life is (and will be) this company, is (and will be) this group of people, is (and will be) to fulfill this illusion.
 
-![CARTO launch](/images/posts/bye-carto/bye-carto-2.jpg)
+![CARTO launch](/a/images/posts/bye-carto/bye-carto-2.jpg)
 
 And you may know, when you experience so many emotions and adventures over 9 years, you need to stop, rest, recharge your batteries and find a new adventure where to help. And this is the way I communicated my leaving to the team  (but in tears):
 

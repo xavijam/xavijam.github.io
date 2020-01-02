@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://localhost:1313/a"
 languageCode = "en-us"
 title = "Javier Álvarez (Medina)"
 theme = "hoki"
@@ -10,11 +10,10 @@ disableAliases = false
 
 [params]
 author = "Javier Álvarez Medina"
-siteURL = ""
 role = "Front End developer & Tinybird co-founder"
 description = "After almost 9 years at [CARTO](https://carto.com)(& [Vizzuality](https://vizzuality.com)), and discovering how companies are built at [7r](https://7r.ventures), it is time for a [new adventure](https://tinybird.co)..."
 keywords = "jmedina,jamedina,xavijam,Javier Álvarez,Javier,Álvarez,Medina,computer,science,tinybird,vizzuality,maps,front-end,carto"
-thumbnail = "/images/thumbnail.png"
+thumbnail = "/a/images/thumbnail.png"
 [params.social]
 twitter = "xavijam"
 github = "xavijam"
