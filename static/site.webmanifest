@@ -1,0 +1,14 @@
+{
+  "short_name": "xavijam",
+  "name": "xavijam",
+  "icons": [
+    {
+      "src": "images/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF"
+}

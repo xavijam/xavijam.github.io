@@ -11,7 +11,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="{{ .Site.BaseURL }}/site.webmanifest">
+  <meta name="msapplication-config" content="{{ .Site.BaseURL }}/browserconfig.xml" />
 
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $title }} · {{.Site.Title}}{{ end }}</title>
   <meta name="description" content="{{ $description }}">
@@ -35,7 +38,7 @@
   {{ else }}
   <meta property="og:type" content="website">
   {{ end }}
-  <meta property="og:url" content="{{ .Site.Params.baseURL }}" />
+  <meta property="og:url" content="{{ .Site.BaseURL }}" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
   <meta property="og:image" content="{{ $thumbnail }}" />
   {{ range .Params.tags }}
@@ -48,7 +51,7 @@
   <meta name="twitter:description" content="{{ $description }}">
   <meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}">
   <meta name="twitter:image:src" content="{{ $thumbnail }}">
-  <meta name="twitter:domain" content="{{ .Site.Params.baseURL }}">
+  <meta name="twitter:domain" content="{{ .Site.BaseURL }}">
 
   <link rel="stylesheet" href="{{ $style.Permalink }}">
   <link href="/a/images/favicon.ico" rel="icon">

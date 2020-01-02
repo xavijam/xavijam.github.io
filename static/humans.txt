@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Javier Álvarez -- FrontEnd -- @xavijam
+
+# THANKS
+
+    Open Source
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, SASS, HTML5
+    Timeago.js, Normalize.css
+    Hugo

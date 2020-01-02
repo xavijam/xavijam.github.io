@@ -1,6 +1,6 @@
 {
   "scripts": {
     "build": "hugo --minify",
-    "dev": "hugo serve -D"
+    "dev": "hugo serve -D --minify"
   }
 }
