@@ -1,0 +1,31 @@
+footer {
+  display: block;
+  font-size: 0.85em;
+  color: $text-paragraph;
+}
+.footer-inner {
+  padding: $unit * 4 0;
+}
+footer p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: $unit * 2 0 0;
+  padding: 0;
+}
+footer .hugo {
+  color: $hugo-color;
+
+  &:hover {
+    color: darken($hugo-color, 10%);
+  }
+}
+footer .twitter {
+  display: inline-block;
+  vertical-align: middle;
+  color: $twitter-color;
+
+  &:hover {
+    color: darken($twitter-color, 10%);
+  }
+}

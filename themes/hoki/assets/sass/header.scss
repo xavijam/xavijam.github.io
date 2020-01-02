@@ -1,0 +1,49 @@
+$selected-color: darken($main-color, 20%);
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: $unit * 8 $unit * 3;
+  background: $greyBkg;
+}
+header img {
+  border-radius: 100%;
+  border: 0.04em solid #DDD;
+  background: #FFF;
+}
+header h1 {
+  margin: $unit * 2 0 0;
+  font-size: 1.6em;
+  color: $text-subtitle;
+}
+header p {
+  max-width: 380px;
+  text-align: center;
+  font-size: 1.05em;
+  line-height: 1.5em;
+  color: $text-paragraph;
+}
+header .role {
+  margin: $unit/2 0 0;
+  font-size: 0.95em;
+  font-style: italic;
+  color: $text-annotation;
+}
+header .desc {
+  margin: $unit*2 0 $unit/2;
+}
+header .social {
+  display: flex;
+  justify-content: center;
+  margin-top: $unit * 2;
+}
+header .social nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .social nav a {
+  margin: 0 $unit * 1;
+}

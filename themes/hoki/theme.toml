@@ -1,0 +1,18 @@
+name = "Hoki"
+license = "MIT"
+licenselink = "https://github.com/xavijam/hoki/blob/master/LICENSE"
+description = "Really small and simple theme for a Hugo personal blog"
+homepage = "http://github.com/xavijam/hoki"
+tags = ["simple"]
+features = ["none"]
+min_version = "0.41"
+
+[author]
+  name = "Javier Álvarez (Medina)"
+  homepage = "https://jmed.in/a"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

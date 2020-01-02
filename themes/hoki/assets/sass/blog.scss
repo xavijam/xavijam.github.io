@@ -1,0 +1,76 @@
+// Blog styles
+
+article {
+  display: block;
+  padding: $unit * 15 0 $unit * 15;
+
+  &:nth-child(even) {
+    background: $greyBkg;
+  }
+}
+
+article .back {
+  display: inline-block;
+  margin-top: -$unit * 8;
+  padding: 0 0 $unit * 3;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+article .inner {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+article time {
+  color: $text-annotation;
+  font-style: italic;
+}
+
+article img,
+article iframe,
+article svg {
+  margin: $unit * 2 0 $unit * 2 -10%;
+}
+article img,
+article iframe {
+  width: 120%;
+}
+
+article em {
+  font-size: .9em;
+}
+
+article p {
+  color: $text-paragraph;
+  line-height: 1.8;
+}
+
+article .tag {
+  padding: $unit/2 $unit;
+  color: #FFF;
+  font-size: .8em;
+  background: $tag-color;
+  border-radius: $unit/4;
+  text-decoration: none;
+
+  &:hover {
+    background: darken($tag-color, 20%);
+  }
+}
+
+blockquote {
+  margin-left: -$unit*3;
+  margin-right: -$unit*3;
+  padding: $unit $unit * 3;
+  background: rgba($blockquote, 0.15);
+}
+
+@media only screen and (max-width: 600px) {
+  article {
+    padding: $unit * 8 0;
+  }
+  article .back {
+    margin-top: -$unit * 8;
+  }
+}
