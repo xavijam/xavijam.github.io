@@ -2,6 +2,7 @@ baseURL = "http://localhost:1313/a"
 languageCode = "en-us"
 title = "Javier Álvarez (Medina)"
 theme = "hoki"
+port = 1313
 
 googleAnalytics = "UA-6602253-10"
 enableemoji = true
