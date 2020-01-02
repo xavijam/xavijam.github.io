@@ -5,7 +5,7 @@ description: "New adventure, called 7r"
 keywords: 7r, work, team, projects, adventure, startup
 categories: [work]
 tags: [7r]
-thumbnail: /images/posts/hola-7r/7r.png
+thumbnail: /a/images/posts/hola-7r/7r.png
 ---
 
 I didn't expect to deceive anyone so soon, my more optimistic cabals pointed to get back to work in March, but honestly this new adventure looks pretty good and gives me everything I've been looking for since I left my favorite video game, CARTO.

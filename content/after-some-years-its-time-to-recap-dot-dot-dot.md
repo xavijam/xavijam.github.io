@@ -5,12 +5,12 @@ description: "After several years at Vizzuality, it is time to look back and exp
 keywords: Vizzuality, CartoDB, work, team, timeline, projects
 categories: [work]
 tags: [Vizzuality, projects, CartoDB]
-thumbnail: /images/posts/vizzuality-timeline/vizzuality-timeline.jpg
+thumbnail: /a/images/posts/vizzuality-timeline/vizzuality-timeline.jpg
 ---
 
 I started in [Vizzuality](http://vizzuality.com) several years ago and after some projects done, lot of friends made and many hours worked, it's time to recap and look back to understand what we have achieved.
 
-![vizzuality-timeline](/images/posts/vizzuality-timeline/vizzuality-
+![vizzuality-timeline](/a/images/posts/vizzuality-timeline/vizzuality-
 timeline.jpg)
 
 I've simply <strike>followed</strike> copied the Facebook timeline trend to visualize some of the most important days in this group of friends (still adding days, not finished!).
