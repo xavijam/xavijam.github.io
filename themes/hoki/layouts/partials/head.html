@@ -1,4 +1,4 @@
-{{ $style := resources.Get "sass/app.scss" | toCSS | minify | fingerprint }}
+{{ $style := resources.Get "sass/app.scss" | toCSS (dict "targetPath" "css/app.css") | minify | fingerprint }}
 
 {{ $title := print .Title }}
 
@@ -50,8 +50,8 @@
   <meta name="twitter:image:src" content="{{ $thumbnail }}">
   <meta name="twitter:domain" content="{{ .Site.Params.siteURL }}">
 
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
-  <link href="/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="{{ .Site.Params.siteURL }}{{ $style.Permalink }}">
+  <link href="{{ .Site.Params.siteURL }}/images/favicon.ico" rel="icon">
 
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" title="{{ .Site.Title }}" type="application/rss+xml" rel="alternate">
