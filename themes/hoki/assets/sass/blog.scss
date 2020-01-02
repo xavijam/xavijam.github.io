@@ -2,11 +2,19 @@
 
 article {
   display: block;
-  padding: $unit * 15 0;
+  padding: $unit * 15 0 $unit * 15;
 
   &:nth-child(even) {
-    background: #f9f9f9;
+    background: $greyBkg;
   }
+}
+
+article .back {
+  display: inline-block;
+  margin-top: -$unit * 8;
+  padding: 0 0 $unit * 3;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 article .inner {
@@ -56,4 +64,13 @@ blockquote {
   margin-right: -$unit*3;
   padding: $unit $unit * 3;
   background: rgba($blockquote, 0.15);
+}
+
+@media only screen and (max-width: 600px) {
+  article {
+    padding: $unit * 8 0;
+  }
+  article .back {
+    margin-top: -$unit * 8;
+  }
 }

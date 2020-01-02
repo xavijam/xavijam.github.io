@@ -5,7 +5,7 @@ header {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: $unit * 8 0;
+  padding: $unit * 8 $unit * 3;
   background: $greyBkg;
 }
 header img {
@@ -14,18 +14,25 @@ header img {
   background: #FFF;
 }
 header h1 {
-  margin: $unit * 2 0;
+  margin: $unit * 2 0 0;
   font-size: 1.6em;
-  letter-spacing: -0.06em;
   color: $text-subtitle;
 }
 header p {
-  max-width: 420px;
-  margin: $unit/2 0;
+  max-width: 380px;
   text-align: center;
   font-size: 1.05em;
-  line-height: 1.6em;
+  line-height: 1.5em;
   color: $text-paragraph;
+}
+header .role {
+  margin: $unit/2 0 0;
+  font-size: 0.95em;
+  font-style: italic;
+  color: $text-annotation;
+}
+header .desc {
+  margin: $unit*2 0 $unit/2;
 }
 header .social {
   display: flex;

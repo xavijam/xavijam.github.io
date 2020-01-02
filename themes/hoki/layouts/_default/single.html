@@ -1,18 +1,19 @@
 {{ define "main" }}
-  <article>
-  	<div class="inner">
-	    <h2>{{ .Title }}</h2>
-	    <time class="timeago" datetime='{{ .Date.Format "2006-01-02T15:04:05-07:00" }}'>{{ .Date }}</time>
+<article>
+  <div class="inner">
+    <a class="back" href="{{ .Site.BaseURL }}">&#8592;</a>
+    <h2>{{ .Title }}</h2>
+    <time class="timeago" datetime='{{ .Date.Format "2006-01-02T15:04:05-07:00" }}'>{{ .Date }}</time>
 
-			{{ .Content }}
+    {{ .Content }}
 
-      <nav class="tags">
+    <nav class="tags">
       {{ with .Params.tags }}
-        {{ range . }}
-          <a class="tag" href="{{with $.Site.GetPage "taxonomyTerm" "tags" }}{{ .Permalink }}{{end}}{{.}}">{{.}}</a>
-        {{ end }}
+      {{ range . }}
+      <a class="tag" href="{{with $.Site.GetPage "taxonomyTerm" "tags" }}{{ .Permalink }}{{end}}{{.}}">{{.}}</a>
       {{ end }}
-      </nav>
-  	</div>
-  </article>
+      {{ end }}
+    </nav>
+  </div>
+</article>
 {{ end }}

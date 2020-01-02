@@ -2,7 +2,7 @@
 
 {{ $title := print .Title }}
 
-{{ $description := .Site.Params.description }}
+{{ $description := .Site.Params.description | markdownify | safeHTML }}
 {{if not .IsHome}}{{ $description = print .Description | safeHTML }}{{end}}
 
 {{ $thumbnail := print .Site.Params.siteURL .Params.thumbnail }}
@@ -27,8 +27,8 @@
   <meta name="geo.position" content="40.4166909, -3.7003454">
   <meta name="ICBM" content="40.4166909, -3.7003454">
 
-  <meta property="og:title" content="{{ $title }}"/>
-  <meta property="og:description" content="{{ $description }}"/>
+  <meta property="og:title" content="{{ $title }}" />
+  <meta property="og:description" content="{{ $description }}" />
   {{ if .IsPage }}
   <meta property="og:type" content="article">
   <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
@@ -36,10 +36,10 @@
   <meta property="og:type" content="website">
   {{ end }}
   <meta property="og:url" content="{{ .Site.Params.siteURL }}" />
-  <meta property="og:site_name" content="{{ .Site.Title }}"/>
-  <meta property="og:image" content="{{ $thumbnail }}"/>
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+  <meta property="og:image" content="{{ $thumbnail }}" />
   {{ range .Params.tags }}
-    <meta property="og:tags" content="{{ . }}">
+  <meta property="og:tags" content="{{ . }}">
   {{ end }}
 
   <meta name="twitter:card" content="summary_large_image">
@@ -54,7 +54,7 @@
   <link href="/favicon.ico" rel="icon">
 
   {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" title="{{ .Site.Title }}" type="application/rss+xml" rel="alternate">
+  <link href="{{ .RSSLink }}" title="{{ .Site.Title }}" type="application/rss+xml" rel="alternate">
   {{ end }}
 
   {{ .Hugo.Generator }}

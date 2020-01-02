@@ -1,7 +1,10 @@
 footer {
-  margin: $unit * 4 auto;
+  display: block;
   font-size: 0.85em;
   color: $text-paragraph;
+}
+.footer-inner {
+  padding: $unit * 4 0;
 }
 footer p {
   display: block;
